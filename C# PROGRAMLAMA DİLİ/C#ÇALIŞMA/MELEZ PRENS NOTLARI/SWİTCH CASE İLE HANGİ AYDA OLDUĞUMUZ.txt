@@ -1,0 +1,76 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace alti
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int sayi = Convert.ToInt16(textBox1.Text);
+                if (sayi <1 || sayi>17)
+	{
+		 MessageBox.Show("sayilar uygun değil");
+    }
+                else
+                {
+                    switch (sayi)
+                    {
+                        case 1:
+                            MessageBox.Show("ocak");
+                            break;
+                        case 2:
+                            MessageBox.Show("subat");
+                            break;
+                        case 3:
+                            MessageBox.Show("mart");
+                            break;
+                        case 4:
+                            MessageBox.Show("nisan");
+                            break;
+                        case 5:
+                            MessageBox.Show("mayis");
+                            break;
+                        case 6:
+                            MessageBox.Show("haziran");
+                            break;
+                        case 7:
+                            MessageBox.Show("temmuz");
+                            break;
+                        case 8:
+                            MessageBox.Show("agustos");
+                            break;
+                        case 9:
+                            MessageBox.Show("eylül");
+                            break;
+                        case 10:
+                            MessageBox.Show("ekim");
+                            break;
+                        case 11:
+                            MessageBox.Show("kasim");
+                            break;
+                        case 12:
+                            MessageBox.Show("aralik");
+                            break;
+                        default: { MessageBox.Show("TANIMSIZ SAYI GİRİŞİ"); break; }
+                    }
+	
+		
+
+
+        }
+    }
+    }
+}

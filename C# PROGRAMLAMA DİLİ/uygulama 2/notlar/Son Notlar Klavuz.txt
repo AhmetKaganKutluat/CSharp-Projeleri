@@ -1,0 +1,37 @@
+// Veritabanı bağlantısı ve güncelleme 
+// 3 haklı kullanıcı adı ve şifre kontrol
+// kayıt ekle // aynı kayıt varsa eklemez
+// kayıt sil
+// kayıt ara
+// kayıt güncelle
+// tarihe göre bilgi getir
+// veritanındaki bilgileri toplama ve texte yazma.
+// koşullu satır boyama
+// textten comboya veri çekme
+// texte yazma.
+// veritabanından comboya veri atma
+// inputbox yapımı
+// temizle proceduresi
+// sadece sayı yazma.
+// sadece harf yazma
+// focuslama
+// check 1 aktifken 2 yi false etme
+// veritabanından değişkene değer alma ve form açma
+// ödeme yap butonu komple // veritabanına bakmak için sağlam program form 2 ye bak.
+// toplam kayıt sayısı
+// zaman yenilemeli form adı değiştirme
+// mdi formdan yeni form açma
+// kayıt yılının tarihi başta olmak üzere şifre türetme
+// for ile comboya sayı atma
+// string değere göre peşin ve vadelilerin toplamını alma ve boyama
+// para işareti ve basamak ekleme
+
+NOTLAR:
+// taksitleri aylara bölme ve ödeme görsel finalin 2. formunda.
+// secime göre ödeme yapma görsel final form1 buton 2 de
+// form 3 ve form 4 borçların aylarını comboya çekiyor ve ödeme imkanı veriyor.
+// form 5 de tüm raporlama metotları.
+
+
+EXTRA NOT:
+// form olayları melez prens (c#) da örneğin tooltribe icon eklemek gibi

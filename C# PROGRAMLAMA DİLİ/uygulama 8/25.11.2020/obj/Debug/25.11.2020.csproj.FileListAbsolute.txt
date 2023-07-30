@@ -1,0 +1,41 @@
+C:\Users\SELAMKACMAZ\Desktop\25.11.2020\25.11.2020\bin\Debug\25.11.2020.exe.config
+C:\Users\SELAMKACMAZ\Desktop\25.11.2020\25.11.2020\bin\Debug\25.11.2020.exe
+C:\Users\SELAMKACMAZ\Desktop\25.11.2020\25.11.2020\bin\Debug\25.11.2020.pdb
+C:\Users\SELAMKACMAZ\Desktop\25.11.2020\25.11.2020\obj\Debug\25.11.2020.csprojResolveAssemblyReference.cache
+C:\Users\SELAMKACMAZ\Desktop\25.11.2020\25.11.2020\obj\Debug\_25._11._2020.Form1.resources
+C:\Users\SELAMKACMAZ\Desktop\25.11.2020\25.11.2020\obj\Debug\_25._11._2020.Properties.Resources.resources
+C:\Users\SELAMKACMAZ\Desktop\25.11.2020\25.11.2020\obj\Debug\25.11.2020.csproj.GenerateResource.Cache
+C:\Users\SELAMKACMAZ\Desktop\25.11.2020\25.11.2020\obj\Debug\25.11.2020.exe
+C:\Users\SELAMKACMAZ\Desktop\25.11.2020\25.11.2020\obj\Debug\25.11.2020.pdb
+C:\Users\SELAMKACMAZ\Desktop\SORU 1\25.11.2020\bin\Debug\25.11.2020.exe.config
+C:\Users\SELAMKACMAZ\Desktop\SORU 1\25.11.2020\obj\Debug\25.11.2020.exe
+C:\Users\SELAMKACMAZ\Desktop\SORU 1\25.11.2020\obj\Debug\25.11.2020.pdb
+C:\Users\SELAMKACMAZ\Desktop\SORU 1\25.11.2020\bin\Debug\25.11.2020.exe
+C:\Users\SELAMKACMAZ\Desktop\SORU 1\25.11.2020\bin\Debug\25.11.2020.pdb
+C:\Users\SELAMKACMAZ\Desktop\SORU 1\25.11.2020\obj\Debug\25.11.2020.csprojResolveAssemblyReference.cache
+C:\Users\SELAMKACMAZ\Desktop\SORU 1\25.11.2020\obj\Debug\_25._11._2020.Form1.resources
+C:\Users\SELAMKACMAZ\Desktop\SORU 1\25.11.2020\obj\Debug\_25._11._2020.Properties.Resources.resources
+C:\Users\SELAMKACMAZ\Desktop\SORU 1\25.11.2020\obj\Debug\25.11.2020.csproj.GenerateResource.Cache
+C:\Users\SELAMKACMAZ\Desktop\MINE YAMAÇ - 20182805019\SORU 1\25.11.2020\bin\Debug\25.11.2020.exe.config
+C:\Users\SELAMKACMAZ\Desktop\MINE YAMAÇ - 20182805019\SORU 1\25.11.2020\obj\Debug\25.11.2020.exe
+C:\Users\SELAMKACMAZ\Desktop\MINE YAMAÇ - 20182805019\SORU 1\25.11.2020\obj\Debug\25.11.2020.pdb
+C:\Users\SELAMKACMAZ\Desktop\MINE YAMAÇ - 20182805019\SORU 1\25.11.2020\bin\Debug\25.11.2020.exe
+C:\Users\SELAMKACMAZ\Desktop\MINE YAMAÇ - 20182805019\SORU 1\25.11.2020\bin\Debug\25.11.2020.pdb
+C:\Users\SELAMKACMAZ\Desktop\MINE YAMAÇ - 20182805019\SORU 1\25.11.2020\obj\Debug\25.11.2020.csprojResolveAssemblyReference.cache
+C:\Users\SELAMKACMAZ\Desktop\MINE YAMAÇ - 20182805019\SORU 1\25.11.2020\obj\Debug\_25._11._2020.Form1.resources
+C:\Users\SELAMKACMAZ\Desktop\MINE YAMAÇ - 20182805019\SORU 1\25.11.2020\obj\Debug\_25._11._2020.Form2.resources
+C:\Users\SELAMKACMAZ\Desktop\MINE YAMAÇ - 20182805019\SORU 1\25.11.2020\obj\Debug\_25._11._2020.Properties.Resources.resources
+C:\Users\SELAMKACMAZ\Desktop\MINE YAMAÇ - 20182805019\SORU 1\25.11.2020\obj\Debug\25.11.2020.csproj.GenerateResource.Cache
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 8\25.11.2020\bin\Debug\25.11.2020.exe.config
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 8\25.11.2020\obj\Debug\25.11.2020.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 8\25.11.2020\obj\Debug\25.11.2020.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 8\25.11.2020\bin\Debug\25.11.2020.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 8\25.11.2020\bin\Debug\25.11.2020.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 8\25.11.2020\obj\Debug\25.11.2020.csprojResolveAssemblyReference.cache
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 8\25.11.2020\obj\Debug\_25._11._2020.Form1.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 8\25.11.2020\obj\Debug\_25._11._2020.Form2.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 8\25.11.2020\obj\Debug\_25._11._2020.Properties.Resources.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 8\25.11.2020\obj\Debug\25.11.2020.csproj.GenerateResource.Cache
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\1.DÖNEM\UYGULAMA\uygulama 8\25.11.2020\bin\Debug\25.11.2020.exe.config
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\1.DÖNEM\UYGULAMA\uygulama 8\25.11.2020\obj\Debug\25.11.2020.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\1.DÖNEM\UYGULAMA\uygulama 8\25.11.2020\obj\Debug\25.11.2020.pdb

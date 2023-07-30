@@ -1,0 +1,24 @@
+c:\users\mehmet\Desktop\1.SORU_DENEME\1.SORU_DENEME\bin\Debug\1.SORU_DENEME.exe.config
+c:\users\mehmet\Desktop\1.SORU_DENEME\1.SORU_DENEME\bin\Debug\1.SORU_DENEME.exe
+c:\users\mehmet\Desktop\1.SORU_DENEME\1.SORU_DENEME\bin\Debug\1.SORU_DENEME.pdb
+c:\users\mehmet\Desktop\1.SORU_DENEME\1.SORU_DENEME\obj\Debug\1.SORU_DENEME.csprojResolveAssemblyReference.cache
+c:\users\mehmet\Desktop\1.SORU_DENEME\1.SORU_DENEME\obj\Debug\_1.SORU_DENEME.Form1.resources
+c:\users\mehmet\Desktop\1.SORU_DENEME\1.SORU_DENEME\obj\Debug\_1.SORU_DENEME.Properties.Resources.resources
+c:\users\mehmet\Desktop\1.SORU_DENEME\1.SORU_DENEME\obj\Debug\1.SORU_DENEME.csproj.GenerateResource.Cache
+c:\users\mehmet\Desktop\1.SORU_DENEME\1.SORU_DENEME\obj\Debug\1.SORU_DENEME.exe
+c:\users\mehmet\Desktop\1.SORU_DENEME\1.SORU_DENEME\obj\Debug\1.SORU_DENEME.pdb
+C:\Users\Excalibur\Desktop\1.SORU_DENEME\1.SORU_DENEME\bin\Debug\1.SORU_DENEME.exe.config
+C:\Users\Excalibur\Desktop\1.SORU_DENEME\1.SORU_DENEME\obj\Debug\1.SORU_DENEME.exe
+C:\Users\Excalibur\Desktop\1.SORU_DENEME\1.SORU_DENEME\obj\Debug\1.SORU_DENEME.pdb
+C:\Users\Excalibur\Desktop\1.SORU_DENEME\1.SORU_DENEME\bin\Debug\1.SORU_DENEME.exe
+C:\Users\Excalibur\Desktop\1.SORU_DENEME\1.SORU_DENEME\bin\Debug\1.SORU_DENEME.pdb
+C:\Users\Excalibur\Desktop\1.SORU_DENEME\1.SORU_DENEME\obj\Debug\1.SORU_DENEME.csprojResolveAssemblyReference.cache
+C:\Users\Excalibur\Desktop\1.SORU_DENEME\1.SORU_DENEME\obj\Debug\_1.SORU_DENEME.Form1.resources
+C:\Users\Excalibur\Desktop\1.SORU_DENEME\1.SORU_DENEME\obj\Debug\_1.SORU_DENEME.Properties.Resources.resources
+C:\Users\Excalibur\Desktop\1.SORU_DENEME\1.SORU_DENEME\obj\Debug\1.SORU_DENEME.csproj.GenerateResource.Cache
+C:\Users\Excalibur\Desktop\1.SORU_DENEME\1.SORU_DENEME\obj\Debug\_1.SORU_DENEME.Form2.resources
+C:\Users\Excalibur\Desktop\1.SORU_DENEME\1.SORU_DENEME\obj\Debug\_1.SORU_DENEME.Form3.resources
+C:\Users\Excalibur\Desktop\1.SORU_DENEME\1.SORU_DENEME\obj\Debug\_1.SORU_DENEME.Form4.resources
+D:\UZAKTAN EĞİTİM\SENE 2 DÖNEM 2\GÖRSEL VİZE CEVAP\1.SORU_DENEME c#\1.SORU_DENEME\bin\Debug\1.SORU_DENEME.exe.config
+D:\UZAKTAN EĞİTİM\SENE 2 DÖNEM 2\GÖRSEL VİZE CEVAP\1.SORU_DENEME c#\1.SORU_DENEME\obj\Debug\1.SORU_DENEME.exe
+D:\UZAKTAN EĞİTİM\SENE 2 DÖNEM 2\GÖRSEL VİZE CEVAP\1.SORU_DENEME c#\1.SORU_DENEME\obj\Debug\1.SORU_DENEME.pdb

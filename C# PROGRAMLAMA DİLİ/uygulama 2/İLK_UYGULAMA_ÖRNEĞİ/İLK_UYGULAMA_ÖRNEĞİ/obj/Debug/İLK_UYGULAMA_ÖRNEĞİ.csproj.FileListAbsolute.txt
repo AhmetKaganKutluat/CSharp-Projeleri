@@ -1,0 +1,23 @@
+C:\Users\MEHMET\Desktop\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\bin\Debug\İLK_UYGULAMA_ÖRNEĞİ.exe.config
+C:\Users\MEHMET\Desktop\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\bin\Debug\İLK_UYGULAMA_ÖRNEĞİ.exe
+C:\Users\MEHMET\Desktop\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\bin\Debug\İLK_UYGULAMA_ÖRNEĞİ.pdb
+C:\Users\MEHMET\Desktop\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\obj\Debug\İLK_UYGULAMA_ÖRNEĞİ.csprojResolveAssemblyReference.cache
+C:\Users\MEHMET\Desktop\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\obj\Debug\İLK_UYGULAMA_ÖRNEĞİ.Form1.resources
+C:\Users\MEHMET\Desktop\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\obj\Debug\İLK_UYGULAMA_ÖRNEĞİ.Form2.resources
+C:\Users\MEHMET\Desktop\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\obj\Debug\İLK_UYGULAMA_ÖRNEĞİ.Properties.Resources.resources
+C:\Users\MEHMET\Desktop\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\obj\Debug\İLK_UYGULAMA_ÖRNEĞİ.csproj.GenerateResource.Cache
+C:\Users\MEHMET\Desktop\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\obj\Debug\İLK_UYGULAMA_ÖRNEĞİ.exe
+C:\Users\MEHMET\Desktop\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\obj\Debug\İLK_UYGULAMA_ÖRNEĞİ.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\bin\Debug\İLK_UYGULAMA_ÖRNEĞİ.exe.config
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\obj\Debug\İLK_UYGULAMA_ÖRNEĞİ.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\obj\Debug\İLK_UYGULAMA_ÖRNEĞİ.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 2\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\bin\Debug\İLK_UYGULAMA_ÖRNEĞİ.exe.config
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 2\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\obj\Debug\İLK_UYGULAMA_ÖRNEĞİ.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 2\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\obj\Debug\İLK_UYGULAMA_ÖRNEĞİ.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 2\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\bin\Debug\İLK_UYGULAMA_ÖRNEĞİ.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 2\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\bin\Debug\İLK_UYGULAMA_ÖRNEĞİ.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 2\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\obj\Debug\İLK_UYGULAMA_ÖRNEĞİ.csprojResolveAssemblyReference.cache
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 2\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\obj\Debug\İLK_UYGULAMA_ÖRNEĞİ.Form1.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 2\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\obj\Debug\İLK_UYGULAMA_ÖRNEĞİ.Form2.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 2\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\obj\Debug\İLK_UYGULAMA_ÖRNEĞİ.Properties.Resources.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\uygulama 2\İLK_UYGULAMA_ÖRNEĞİ\İLK_UYGULAMA_ÖRNEĞİ\obj\Debug\İLK_UYGULAMA_ÖRNEĞİ.csproj.GenerateResource.Cache

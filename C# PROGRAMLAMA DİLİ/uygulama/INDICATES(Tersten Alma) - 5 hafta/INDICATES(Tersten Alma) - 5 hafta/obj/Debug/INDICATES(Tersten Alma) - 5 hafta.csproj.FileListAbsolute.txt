@@ -1,0 +1,9 @@
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\INDICATES(Tersten Alma) - 5 hafta\INDICATES(Tersten Alma) - 5 hafta\bin\Debug\INDICATES(Tersten Alma) - 5 hafta.exe.config
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\INDICATES(Tersten Alma) - 5 hafta\INDICATES(Tersten Alma) - 5 hafta\bin\Debug\INDICATES(Tersten Alma) - 5 hafta.exe
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\INDICATES(Tersten Alma) - 5 hafta\INDICATES(Tersten Alma) - 5 hafta\bin\Debug\INDICATES(Tersten Alma) - 5 hafta.pdb
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\INDICATES(Tersten Alma) - 5 hafta\INDICATES(Tersten Alma) - 5 hafta\obj\Debug\INDICATES(Tersten Alma) - 5 hafta.csprojResolveAssemblyReference.cache
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\INDICATES(Tersten Alma) - 5 hafta\INDICATES(Tersten Alma) - 5 hafta\obj\Debug\INDICATES_Tersten_Alma____5_hafta.Form1.resources
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\INDICATES(Tersten Alma) - 5 hafta\INDICATES(Tersten Alma) - 5 hafta\obj\Debug\INDICATES_Tersten_Alma____5_hafta.Properties.Resources.resources
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\INDICATES(Tersten Alma) - 5 hafta\INDICATES(Tersten Alma) - 5 hafta\obj\Debug\INDICATES(Tersten Alma) - 5 hafta.csproj.GenerateResource.Cache
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\INDICATES(Tersten Alma) - 5 hafta\INDICATES(Tersten Alma) - 5 hafta\obj\Debug\INDICATES(Tersten Alma) - 5 hafta.exe
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\INDICATES(Tersten Alma) - 5 hafta\INDICATES(Tersten Alma) - 5 hafta\obj\Debug\INDICATES(Tersten Alma) - 5 hafta.pdb

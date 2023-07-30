@@ -1,0 +1,50 @@
+C# da belirli matematiksel işlemleri yapmak için .Net Kütüphanesinde Matematik (Math) sınıfı bulunmaktır. Math sınıfı static bir sınıftır. 
+Hatırlatma: Static Metot Nedir ? new anahtar kelimesine ihtiyaç duymazlar bu sayede metodumuzun ismini yazarak çalıştırabiliriz. Instance sini almaya gerek yoktur.
+
+Matematik Sınıfının Metoları
+Math.Abs() : Girilen sayının mutlak değerini alır.
+Math.Abs(-74);
+>> 74
+Math.Ceiling() : Girilen sayıyı yukarı yuvarlar.
+Math.Ceiling(7.4);
+>> 8
+Math.Floor() : Girilen sayıyı aşağı yuvarlar.
+Math.Floor(7.4);
+>> 7
+Math.Round() : Girilen sayıyı en yakın tamsayıya yuvarlar.
+Math.Round(7.4);
+>> 7
+Math.Round(7.6);
+>> 8
+Math.Cos() : Girilen sayının kosinüsünü alır.
+Math.Cos(1);
+>> 0.54030230586
+Math.Sin() : Girilen sayının sinüsünü alır.
+Math.Sin(1);
+>> 0.8414709848
+Math.Tan() : Girilen sayının tanjantını alır.
+Math.Tan(1);
+>> 1.55740772465
+Math.Max(a,b) : Girilen sayılardan en büyüğünü bulur.
+Math.Max(11,12);
+>> 12
+Math.Min(a,b) : Girilen sayılardan en küçüğünü bulur.
+Math.Min(11,12);
+>> 11
+Math.Pow(a,b) : a üzeri b yi hesaplar.
+Math.Pow(2,3); // 2^3
+>> 8
+Math.Sqrt() : Girilen sayının karekökünü bulur.
+Math.Sqrt(4);
+>> 2
+Math.Truncate() : Girilen sayının virgülden sonrasını almaz.
+Math.Truncate(1.2341241);
+>> 1
+Math.Log() : Girilen sayının e tabanında logaritmasını bulur.
+Math.Log(1);
+>> 0
+Math.Log(a,b) : Girilen sayının(a)  b tabanında logaritmasını bulur.
+Math.Log(100, 10); //log10(100)
+>> 2
+Math.Log10() : Girilen sayının 10 tabanında logaritmasını bulur.
+Math.Log10(10);

@@ -1,0 +1,806 @@
+Veritabanındaki istediğin stunu gizleme     // dataGridView1.Columns["MEMLEKET"].Visible = false;   // MEMLEKET KOLAUNUNU GİZLEMEK İÇİN YADA GRİD ÖZELLİKLERİDENDE YAPILABİLİRDİ
+dataGridView1.Columns[0].Visible = false;   // kimliği gizlemek için 
+label7.Text = dataGridView1.RowCount.ToString(); // GRİDDEKİ TOPLAM KAYIT SAYISI.
+ dataGridView2.Columns[0].DefaultCellStyle.BackColor = Color.Crimson;  // seçili colmnu boyar
+
+
+NOT = eğer bilgisayar düşünüp arza veriyorsa veritabanında bir problem vardır.
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+Veritabanı bağlantısı 1 ( accdb )
+
+// yukarı      using System.Data.OleDb;      kütüphaneyi ekliyoruz.
+
+
+// voidleri attıgımız yere atıyoruz classın içine
+
+ OleDbConnection baglan = new OleDbConnection("Provider =Microsoft.Ace.Oledb.12.0; Data Source=bilgiler.accdb");
+
+
+*********************************************************************************
+Veritabanı bağlantısı 2 ( mdb )
+
+
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+// gridi güncelleme
+
+ private void guncelle()
+        {
+            // giride bilgi çekme  1. yol
+
+            baglan.Open();
+            OleDbCommand komut = new OleDbCommand("SELECT * FROM TABLO1", baglan);  // bilgiyi çektik  * istediğimiz alan adını çağırıp sadece onlarıda gride çekebilirdik.
+            DataTable tablo = new DataTable();   //  sanal bir tabloya aktarıcaz
+            tablo.Load(komut.ExecuteReader());    // bu tablo şablonuna bir değer yüklicem soruyu soruyoruz nerden yüklicez ? execute reare oku sanal tabloya aktar demek.
+
+            dataGridView1.DataSource = tablo;  // DATAGİRİND  VERİ KAYNAĞI(datasource) nerden gelicek = tablo 'dan .
+            baglan.Close();
+        
+        
+        
+        }
+
+
+
+// program içinde çağırma
+
+guncelle();
+
+
+
+
+
+*********************************************************************************
+// gridi güncelleme 2. yöntem
+
+ private void guncelle2()
+        { 
+            // 2 . bir yöntemle data adamptor kullanark veri tabanı bağlantısı yapma
+
+            DataTable tablo = new DataTable(); // data table hangi yöntem olursa olsun şart
+
+            OleDbDataAdapter bilgicek = new OleDbDataAdapter("SELECT * FROM TABLO1",baglan2); // bunun avantajı veri tabannı bağlantısı açmadan kapatmadan kendisi yapar. açma ve kapatmaya gerek kalmaz
+            bilgicek.Fill(tablo);  // aktarma yapıcam kime sanal tabloya 
+            dataGridView1.DataSource = tablo;  // kimden bilgi alıcak grid tablodan
+        
+        
+        
+        }
+
+
+
+// program içinde çağırma
+
+guncelle2();
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+// şifre kontrol accdb bağlantısı ile 
+
+ private void button1_Click(object sender, EventArgs e)
+        {
+            baglan.Open();   // executereader yönteminden farklı bir yntemle yapıcaz
+            OleDbCommand vericek = new OleDbCommand
+            ("SELECT Count(*) FROM Tablo1 WHERE KULLANICI='"+textBox1.Text+"' AND SIFRE='"+textBox2.Text+"'",baglan);                //farklı bir yöntem
+
+            int oku = Convert.ToInt32(vericek.ExecuteScalar());
+            if (oku == 1)     //doğruysa
+            {
+                Form1 göster = new Form1();
+                göster.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("KULLANICI GİRİŞİ DOĞRULANMADI");
+            }
+
+            baglan.Close();
+
+        }
+
+*********************************************************************************
+
+// şifre kontrol 2. yöntem mdb bağlantısı ile. acddb de de işe yarıyor. 
+// kalan haklı şifre kontrol
+
+
+int sayac = 3;
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            baglan.Open();
+
+            OleDbCommand vericek = new OleDbCommand
+                ("SELECT * FROM TABLO3 WHERE KULLANICI='"+textBox1.Text.Trim()+"' AND SIFRE='"+textBox2.Text.Trim()+"'",baglan);
+
+            OleDbDataReader oku = vericek.ExecuteReader();
+
+            if (oku.Read() == true)
+            {
+                Form1 goster = new Form1();
+                goster.ShowDialog();
+            }
+            else
+            {
+                sayac = sayac - 1;
+
+                MessageBox.Show("KULLANICI ADI VEYA SIFREDE HATA VAR...    TEKRAR DENEYİNİZ KALAN HAKKINIZ  :" + sayac);
+                textBox1.Clear();
+                textBox2.Clear();
+                textBox1.Focus();
+
+                if (sayac == 0)
+                {
+                    Environment.Exit(0);
+                }
+             
+            }
+
+
+            baglan.Close();
+
+        }
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+// try catch finally kullanarak kayıt yapma
+
+
+
+
+DialogResult sor;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // try catch finally kullanarak kayıt işlemi yapılacak
+            if (textBox1.Text != "" && textBox2.Text != "")  // boş değilse ! o anlama geliyo
+            {
+
+                try
+                {
+
+
+                    OleDbCommand kaydet = new OleDbCommand
+                    ("INSERT INTO TABLO1(ADI,SOYADI,MEMLEKET,MESLEK,KAYIT_ZAMANI) VALUES ('" + textBox1.Text.Trim() + "','" + textBox2.Text.Trim() + "','" + comboBox1.Text + "','" + mes + "','"+DateTime.Now+"')", baglan);
+                    sor = MessageBox.Show(textBox1.Text + " " + textBox2.Text + "  isimli kayıt yapılsınmı ", "KAYIT İŞLEMİ", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+
+                    if (sor == DialogResult.Yes)
+                    {
+                        baglan.Open();
+                        kaydet.ExecuteNonQuery();
+                        baglan.Close();
+                    }
+                    guncelle();
+                    temizle();
+
+
+
+
+
+                }
+                catch
+                {
+                    MessageBox.Show("VERİTABANINA (bilgiler.accdb) DOSYASINA KAYIT YAPILAMADI");
+
+                }
+                finally
+                {
+                    temizle();
+                }
+
+            }
+
+            else
+            {
+                MessageBox.Show("LÜRFEN MÜŞTERİNİN ADINI VE SOYADINI GİRİNİZ .\n\n            LÜTFEN ALANLARI DOLDURUNUZ");
+
+            }
+
+
+
+           
+        }
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+// veritabanından combobox a veri çekme // veritabanından comboya veri çekme
+
+ baglan.Open();
+            OleDbCommand il_goster = new OleDbCommand("SELECT OGRETMEN FROM TABLO2",baglan);
+            OleDbDataReader okuyucu = il_goster.ExecuteReader();  // data adaptor gride veri ceker reader nesnelere çeker
+            while (okuyucu.Read())
+            {
+                comboBox1.Items.Add(okuyucu["OGRETMEN"]);
+            }
+
+            baglan.Close();
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+// parametreli kayıt yapma
+
+private void button1_Click(object sender, EventArgs e)
+        {
+
+
+            string kaydet;  // sql ifadesini bir değişkene atıpta kayıt işlemi yapabiliriz.
+            // FARKLI BİR YÖNTEM KAYIT İŞLEMİ
+            kaydet = "INSERT INTO TABLO1(ADI,SOYADI,MEMLEKET) VALUES (@M_ADI,@M_SOYADI,@MEM)";
+            OleDbCommand komut = new OleDbCommand(kaydet,baglan);
+            komut.Parameters.AddWithValue("@M_ADI",textBox1.Text.Trim());
+            komut.Parameters.AddWithValue("@M_SOYADI", textBox2.Text.Trim());
+            komut.Parameters.AddWithValue("@Mem", comboBox1.Text);
+            baglan.Open();
+            komut.ExecuteNonQuery();
+            baglan.Close();
+
+            guncelle();
+
+
+        }
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+// datagridde seçileni textboxta gösterme
+
+private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+           // textBox3.Text=dataGridView1.SelectedCells[0].Value.ToString();   // 1.yönetm
+           // textBox4.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();  // 2.yöntem
+
+            // 3. yöntem
+
+            int secilen = dataGridView1.SelectedCells[0].RowIndex;
+            textBox3.Text = dataGridView1.Rows[secilen].Cells[0].Value.ToString();
+            textBox4.Text = dataGridView1.Rows[secilen].Cells[1].Value.ToString();
+            textBox5.Text = dataGridView1.Rows[secilen].Cells[2].Value.ToString();
+        }
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+// kayıt ara ve kayıt varsa sil 1. yöntem
+
+ private void button2_Click(object sender, EventArgs e)
+        {
+            if (textBox6.Text == "" || textBox7.Text == "")
+            {
+                MessageBox.Show("ARANILAN KİŞİNİN AD VE SOYADINI GİRİNİZ");
+            }
+            else
+            {
+
+
+                baglan.Open();
+
+                OleDbCommand ara = new OleDbCommand               // önce kayıdı arıcaz bulunursasilicez
+                    ("SELECT ADI,SOYADI FROM Tablo1 WHERE ADI='" + textBox6.Text.Trim() + "' AND SOYADI='" + textBox7.Text.Trim() + "'", baglan);
+
+
+                OleDbCommand sil = new OleDbCommand
+                    ("DELETE FROM TABLO1  WHERE ADI='" + textBox6.Text.Trim() + "' AND SOYADI='" + textBox7.Text.Trim() + "' ", baglan);
+
+                OleDbDataReader dr = ara.ExecuteReader();         // kayıt yoksaki durumlar için yukardaki ise kayıt varsa onu siler
+                if (dr.Read() == true)
+                {
+                    
+                    sil.ExecuteNonQuery();
+                    guncelle();
+
+                    
+                }
+                else
+                {
+                    MessageBox.Show("ARANINILAN KAYIT SİSTEMDE YOK");
+                }
+
+
+                baglan.Close();
+                guncelle();
+
+            }
+
+        }
+
+
+
+
+
+***********************************************************************************
+// kayıt ara ve kayıt varsa sil 2. yöntem
+
+
+ private void Form1_Load(object sender, EventArgs e)
+        {
+            DataTable tablo = new DataTable();
+            OleDbDataAdapter cek = new OleDbDataAdapter("SELECT * FROM TABLO2", baglan);
+            cek.Fill(tablo);
+            dataGridView1.DataSource = tablo;
+        }
+
+        OleDbConnection baglan = new OleDbConnection
+        ("Provider=Microsoft.Ace.Oledb.12.0; Data Source=bilgiler.accdb");
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "" || textBox2.Text == "")
+            {
+                MessageBox.Show("SİLİNECEK KİŞİNİN AD VE SOYADINI GİRİNİZ !!");
+            }
+            else
+            {
+                baglan.Open();
+
+                OleDbCommand ara = new OleDbCommand               // önce kayıdı arıcaz bulunursasilicez
+                    ("SELECT ADI,SOYADI FROM Tablo2 WHERE ADI='"+textBox1.Text+"' AND SOYADI='"+textBox2.Text+"'",baglan);
+
+
+                OleDbCommand sil = new OleDbCommand               // şimdi ise silmek için 
+                   ("DELETE  FROM Tablo2 WHERE ADI='" + textBox1.Text + "' AND SOYADI='" + textBox2.Text + "'", baglan);
+
+                OleDbDataReader dr = ara.ExecuteReader();             // veri okuyucu eger ara dogruysa yapıcak
+                if (dr.Read())       //eger dogruysa
+                {
+                    sil.ExecuteNonQuery();   // sili çalıştır
+                    DataTable tablo = new DataTable();
+                    OleDbDataAdapter cek = new OleDbDataAdapter("SELECT * FROM TABLO2", baglan);
+                    cek.Fill(tablo);
+                    dataGridView1.DataSource = tablo;
+
+                }
+                else
+                {
+                    MessageBox.Show("İLGİLİ KAYIT BULUNAMADI");
+                }
+
+
+                baglan.Close();
+            }
+        }
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+// tüm satırlarla ilgili işlem yapma                 UYGULAMA 4 1. PROGRAM 1. FORMUNDA DETAYLI VAR.
+
+// 2 ALANI TOPLAYIP 3. BİR ALANA YAZMIŞ HER BİR SATIR İÇİN
+
+ for (int i = 0; i < dataGridView1.RowCount; i++)   // her satır için toplam gelir gideri çıkartıp sanal olarak sadece gridde olan gelir gider farkına yazdık.
+            { 
+            int gelir_toplam = int.Parse(dataGridView1.Rows[i].Cells[4].Value.ToString());
+            int gider_toplam = int.Parse(dataGridView1.Rows[i].Cells[5].Value.ToString());
+            int gelir_gider_fark = gelir_toplam - gider_toplam;
+            dataGridView1.Rows[i].Cells[6].Value = gelir_gider_fark;
+            }
+
+// TÜM SATIRLARDAKİ SEÇİLEN ALAN ADLARINI TOPLAMIŞ  VE LABELE YAZMIŞ PARA BİRİMİ OLARAK
+
+
+ int toplamgelir = 0; int toplamgider = 0;
+            for (int i = 0; i< dataGridView1.Rows.Count; i++)
+            {
+                toplamgelir += Convert.ToInt32(dataGridView1.Rows[i].Cells[4].Value);  // tüm gelir satırlarını toplamgelir değişkeninde topla demek
+                toplamgider += Convert.ToInt32(dataGridView1.Rows[i].Cells[5].Value);  // tüm gider satırlarını toplamgider değişkeninde topla demek
+
+                
+            }
+
+            label1.Text = "GELİR TOPLAMLARI    : " + toplamgelir.ToString("0,###.00") + " ₺";
+            label2.Text = "GİDER TOPLAMLARI    : " + toplamgider.ToString("0,###.00") + " ₺";
+            label3.Text = "GELİR GİDER FARKI   : " + (toplamgelir - toplamgider).ToString("0,###.00") + " ₺";
+
+
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+// İSME VE SOYİSME GÖRE ARAMA PROCEDURE OLARAK GİBİ
+
+ DataView isme_gore_ara()
+        {
+            DataView ara = new DataView();
+            ara = tablo.DefaultView;
+            ara.RowFilter = "ADI LIKE '%"+textBox1.Text+"%'";
+            dataGridView1.DataSource = ara;
+            return ara;
+        }
+
+// PROGRAMDA ÇAĞRILIŞI
+  private void textBox1_TextChanged(object sender, EventArgs e)  // TEXTİN CHANGEDİNE YAZIYORUZ.
+        {
+            isme_gore_ara();
+        }
+
+*********************************************************************************
+// soyadın ortasından arama yapma
+
+ private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+ OleDbDataAdapter veri = new OleDbDataAdapter
+                  ("SELECT * FROM TABLO1 WHERE SOYADI='%"+textBox2.Text+"%'", baglan);
+                veri.Fill(tablo1);
+                dataGridView1.DataSource = tablo1;
+
+}
+
+
+
+
+*********************************************************************************
+// adı ve soyadı doğruysa bulur 
+// buluyor ve textboxlara kaydı getiriyor.
+
+
+OleDbDataReader dr;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            baglan.Open();
+
+            OleDbCommand kayıtara = new OleDbCommand
+            ("SELECT * FROM TABLO1 WHERE ADI='" + textBox1.Text + "' AND SOYADI='" + textBox2.Text + "'", baglan);
+            dr = kayıtara.ExecuteReader();
+            if (dr.Read())
+            {
+                textBox3.Text = dr["ADI"].ToString();
+                textBox4.Text = dr["SOYADI"].ToString();
+                textBox5.Text = dr["MEMLEKET"].ToString();
+                textBox6.Text = dr["MESLEK"].ToString();
+                textBox7.Text = dr["GELİR"].ToString()+" ₺";
+                textBox8.Text = dr["GİDER"].ToString()+ " ₺";
+            }
+            else
+            {
+                MessageBox.Show("ARANILAN KAYIT SİSTEMDE YOK");
+            }
+
+            baglan.Close();
+
+        }
+
+
+*********************************************************************************
+// adı ve soyadı doğruysa bulur forla ve başka forma yazma 
+
+public static string[] kisi = new string[500];  // projeni heryerinde çalışan kişi adında bir değişken sonsuz boyutta 500 karakter uzunluğa sahip
+
+ OleDbDataReader dr;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            baglan.Open();
+            OleDbCommand cmd = new OleDbCommand
+            ("SELECT * FROM TABLO1 WHERE ADI='" + textBox1.Text + "' AND SOYADI='" + textBox2.Text + "'", baglan);
+            dr = cmd.ExecuteReader();
+            if (dr.Read())
+            {
+                for (int i = 0; i < 6; i++)
+                {
+                    kisi[i] = dr[i].ToString();
+                }
+                DialogResult sor = MessageBox.Show(kisi[0]+" "+kisi[1]+" isimli kişi yazdırılsınmı ? ","YAZDIR",MessageBoxButtons.YesNo,MessageBoxIcon.Information);
+                    if (sor == DialogResult.Yes)
+                        {
+                            Form4 ac = new Form4();
+                            ac.ShowDialog();
+
+                        }
+                    else
+                        {
+                            textBox1.Clear();
+                            textBox2.Clear();
+
+                        }
+            }
+            else
+            {
+            MessageBox.Show("SİSTEMDE KAYITLI AD VE SOYAD YOKTUR.");
+            }
+
+            
+
+            baglan.Close();
+        }
+
+
+// başka formda yazma.
+
+ private void Form4_Load(object sender, EventArgs e)
+        {
+            textBox1.Text = Form3.kisi[0];
+            textBox2.Text = Form3.kisi[1];
+            textBox3.Text = Form3.kisi[2];
+            textBox4.Text = Form3.kisi[3];
+            textBox5.Text = Form3.kisi[4];
+            textBox6.Text = Form3.kisi[5];
+
+        }
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+// girilen 2 tarih arasındaki geçen zamanı gün olarak hesaplayan program
+
+
+ DateTime tarih1, tarih2;  // 23,04,2001 gibi sayılar.
+            int i;
+            TimeSpan fark;  // tarihler arasındaki farkı gün, ay,saat olarak almamızı sağlar.
+
+            for (i = 0; i < dataGridView1.RowCount; i++) // tüm 
+            {
+                tarih1 = Convert.ToDateTime(dataGridView1.Rows[i].Cells[1].Value);
+                tarih2 = Convert.ToDateTime(dataGridView1.Rows[i].Cells[2].Value);
+                fark = tarih2 - tarih1;
+               // dataGridView1.Columns[3].Visible = true;
+                dataGridView1.Rows[i].Cells[3].Value = fark.Days;
+            }
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+// koşullu satır renklendirme 
+
+for (int i = 0; i < dataGridView1.Rows.Count; i++)
+            { 
+                DataGridViewCellStyle renk = new DataGridViewCellStyle();
+
+                if (Convert.ToInt32(dataGridView1.Rows[i].Cells[3].Value) <= 1500)
+                {
+                    renk.BackColor = Color.SandyBrown;
+
+                }
+                else
+                    if (Convert.ToInt32(dataGridView1.Rows[i].Cells[3].Value) <= 3000)
+                    {
+
+                        renk.BackColor = Color.Silver;
+                    }
+
+                    else
+                        if (Convert.ToInt32(dataGridView1.Rows[i].Cells[3].Value) <= 4500)
+                        {
+
+                            renk.BackColor = Color.Thistle;
+                        }
+                        else
+                        {
+
+                            renk.BackColor = Color.Purple;
+                        }
+
+                dataGridView1.Rows[i].DefaultCellStyle = renk;
+            }
+
+
+*****************************************************************************
+// koşullu satır renklendirmek 2. örnek
+
+
+
+  int i;
+
+            for (i = 0; i<=dataGridView1.Rows.Count - 1; i++)
+            {
+                if ((int)(dataGridView1.Rows[i].Cells["ORTALAMA"].Value) <= 50)
+                {
+                    dataGridView1.Rows[i].DefaultCellStyle.BackColor = Color.Bisque;
+                }
+                else
+                    if ((int)(dataGridView1.Rows[i].Cells["ORTALAMA"].Value) <= 70)
+                    {
+                        dataGridView1.Rows[i].DefaultCellStyle.BackColor = Color.Cyan;
+                    }
+                    else
+                        if ((int)(dataGridView1.Rows[i].Cells["ORTALAMA"].Value) <= 85)
+                        {
+                            dataGridView1.Rows[i].DefaultCellStyle.BackColor = Color.Fuchsia;
+                        }
+                        else
+                            if ((int)(dataGridView1.Rows[i].Cells["ORTALAMA"].Value) <= 99)
+                            {
+                                dataGridView1.Rows[i].DefaultCellStyle.BackColor = Color.MediumOrchid;
+                            }
+                            else
+                                if ((int)(dataGridView1.Rows[i].Cells["ORTALAMA"].Value) == 100)
+                                {
+                                    dataGridView1.Rows[i].DefaultCellStyle.BackColor = Color.Green;
+                                }
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+// yazıcı ile yazdırma 
+
+// printdocument1 nesnesi ekliyoruz toolboxdan.
+//printdocument1 nesnesine çift tıkladığımız yere bu kodları yazıyoruz.
+
+
+
+private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            Bitmap bm = new Bitmap
+            (this.dataGridView1.Width , this.dataGridView1.Height ); // kendi yüksekliğini ve genişliğini alıyoruz gridin.
+
+            dataGridView1.DrawToBitmap(bm, new Rectangle(0, 0, this.dataGridView1.Width, this.dataGridView1.Height));
+            e.Graphics.DrawImage(bm,0,0);
+        }
+
+
+
+
+
+DialogResult soru;
+        private void button2_Click(object sender, EventArgs e)   // butona
+        {
+            soru=MessageBox.Show("Ekran Bilgileri Yazdırılsınmı","YAZDIRMA İŞLEMİ",MessageBoxButtons.YesNo);
+            if (soru == DialogResult.Yes)
+            {
+                printDocument1.Print();
+            }
+            else
+            {
+
+                MessageBox.Show("YAZDIRILMA İŞEMİNDEN VAZGEÇİLDİ");
+            }
+
+        }
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+// kaydın olup olmadığını kontrol edip durum değişkenine aktarıyor ve kayıt yoksa kaydediyor.
+// kayıt kontrol 
+// kayıt var mı yok mu kontrol
+
+
+
+ void mukerrer()
+        {
+            baglan.Open();
+            OleDbCommand komut = new OleDbCommand // adına göre karşılaştırma işlemi yada isteğe göre
+            ("SELECT * FROM Tablo3 WHERE ADI='"+textBox1.Text+"'",baglan);
+            OleDbDataReader dr = komut.ExecuteReader();
+            if (dr.Read())
+            {
+                durum = false;
+            }
+            else
+            {
+                durum = true;
+            }
+
+            baglan.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            mukerrer();
+            if (durum == true)
+            {
+                OleDbCommand kaydet = new OleDbCommand       // kayıt işlemi yapılabilir.
+                ("INSERT INTO Tablo3 (ADI,SOYADI,MEMLEKET) VALUES('"+textBox1.Text+"','"+textBox2.Text+"','"+textBox3.Text+"')",baglan);
+                baglan.Open();
+                kaydet.ExecuteNonQuery();
+                baglan.Close();
+                guncelle();
+
+            }
+
+            else
+            {
+                MessageBox.Show("VERİ TABANINDA AYNI İSİMLİ KAYIT VARDIR");
+            }
+        }
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+// tablo birleştirme    // 6.hafta(uygulama) 1. uygulama detaylı bakmak istersen (veritabanına bakmak istersen)
+
+
+DataTable veriler = new DataTable();
+            OleDbDataAdapter cek = new OleDbDataAdapter   //giride çekerken tabloyu adapter kullanıyoruz command değil
+            ("SELECT Tablo1.ADI,SOYADI, Tablo2.DERS,ORTALAMA FROM Tablo1 INNER JOIN Tablo2 ON Tablo1.TC=Tablo2.TC", baglan);    // TC LERİNE GÖRE AYNI OLUP OLMASINA GÖRE BİRLEŞTİRDİK.
+            cek.Fill(veriler);
+            dataGridView2.DataSource = veriler;
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+//tablodan istediğimiz kısımları çekme 
+// tablodan istenilen yeri çekme
+
+
+
+ private void button3_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked == true)  // sadece isim soyisim göster
+            {
+
+                DataTable veriler = new DataTable();
+                OleDbDataAdapter cek = new OleDbDataAdapter   //giride çekerken tabloyu adapter kullanıyoruz command değil
+                ("SELECT ADI,SOYADI FROM Tablo3", baglan);
+                cek.Fill(veriler);
+                dataGridView1.DataSource = veriler;
+                radioButton1.Checked = false;
+                
+            }
+            
+            
+                if (radioButton2.Checked == true) //sadece adı ve memleketi göster.
+                {
+
+                    DataTable veriler = new DataTable();
+                    OleDbDataAdapter cek = new OleDbDataAdapter   //giride çekerken tabloyu adapter kullanıyoruz command değil
+                    ("SELECT ADI,MEMLEKET FROM Tablo3", baglan);
+                    cek.Fill(veriler);
+                    dataGridView1.DataSource = veriler;
+                    radioButton2.Checked = false;
+                   
+                }
+            
+            
+            
+        }
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+// comboboxa veritabanından veri çekme.
+
+ goster();
+            baglan.Open();
+            OleDbCommand duzeycek = new OleDbCommand("select * from duzey",baglan);
+            OleDbDataReader duzeyara = duzeycek.ExecuteReader();
+
+            while(duzeyara.Read())
+            {
+                comboBox1.Items.Add(duzeyara["duzeyler"]);
+            }
+
+            baglan.Close();
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$

@@ -1,0 +1,55 @@
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\Ahmet Kağan\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Ahmet Kağan\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Ahmet Kağan\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Ahmet Kağan\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Ahmet Kağan\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Ahmet Kağan\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Ahmet Kağan\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\Ahmet Kağan\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Ahmet Kağan\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Ahmet Kağan\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\Ahmet Kağan\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form7.resources
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form6.resources
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form8.resources
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form5.resources
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\bilgiler.accdb
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form9.resources
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RdlCompile.cache
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RdlCompile.compiled
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form10.resources
+C:\Users\Excalibur\Desktop\GÖRSEL FİNAL DENEME\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form11.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\bilgiler.accdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form10.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form11.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form5.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form6.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form7.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form8.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form9.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RdlCompile.cache
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\kendi denemelerim\GÖRSEL FİNAL DENEME c#\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\RdlCompile.compiled

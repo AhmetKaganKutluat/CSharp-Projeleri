@@ -1,0 +1,1581 @@
+ this.Text = "Bugün Günlerden Çarşamba";        // formun ismini değiştimek içn kullanılır.Formun loadına yazılır.(forma çift tıkladığın yer)
+ metin1 = "selam kaçmaz";                       // metin1'in içine bir değer atadık salam kaçmaz diye . (string değişkene değer atama)
+sayi1 = 5;                                      //sayısal değişkene değer atama.
+label1.Text = "sonuc " + sonuc.ToString();      //sayısal değeri labele yazarken convert etme;
+ textBox1.Clear(); textBox2.Clear();            //textbox temizleme.
+ textBox1.Focus();                              //imleci textbox 1 e focusluyor.
+ Application.Exit();                            // çıkış işlemi.//butona yazılır.
+Environment.Exit(1);                            //çıkış işlemi.//butona yazılır. 0 veya 1 değer ister.
+MessageBox.Show("ÇIKIŞ GERÇEKLEŞMEDİ !");       // ekrana mesaj verme;
+ listBox1.Items.Add("TANER YILDIRIM");          // LİSTBOXA EKLEMEK.
+comboBox1.Items.Add("FENERBAHÇE");              //COMBOBOXA EKLEMEK.
+ comboBox1.Sorted = true;                       // COMBOBOXU A DAN Z YE SIRALAR.
+ textBox1.BackColor = Color.Yellow;             //textbox 1 in rengini değiştirme.
+ogr.ad = textBox1.Text.Trim().ToUpper();        //ogr structuna trimi alınmış ve büyütülmüş textbox texti aktardık.
+MessageBox.Show("SEÇİLEN ELEMAN : " + listBox1.SelectedItem);   //listboxdeki seçili elemanı gösterir.//butona yazılabilir.
+double vade = Convert.ToDouble(comboBox1.SelectedItem);         //comboboxtaki seçili şeyi değişkene alma.
+sayi2 = Convert.ToInt32(textBox2.Text);                         //sayısal değere textboxtan veri atarken convert etme.
+ textBox1.Text = sayi1.ToString();                              //sayi 1 i textboxa atarken stringe çevirme.
+ComboBox2.Items.Clear()                                         //combobox 2 item temizleme 
+sayı1.tostring("C");                                            //integer olan değeri yazdırırken yanına TL işareti koymak için.
+if (string.IsNullOrEmpty(textBox1.Text) == true)               // textbox 1 deki boşsa yap demek.//varsayılanı truedir yazmasanda olur ama belirgin olsun diye yaz
+ public static Boolean durum ;                                 //HERYERDE KULLANILIR
+string[] isimler = new string[5];                              //DİZİ TANIMLAMA
+
+
+MessageBox.Show("BİLGİLER BAŞARIYLA KAYDEDİLDİ " + "emmi\n" + " " + "dede\t"+"AT"); "\n" alt alta yazdırmak için. "\t" yan yana boşluk bırakmak için .
+"||" SEMBOLU YADA DEMEK   
+"&&" VE DEMEK " 
+!= " EŞİT DEĞİL YANİ BOŞ DEĞİLSE DEMEK. 
+
+NOT=genel tuşlara birşey atamak istiyorsan keypress ama f5 tarzı şeyler için keydown
+NOT=PİCTUREBOX FOTOGRAF BÜYÜK GELİRSE YÜKLEDİKTEN SONRA ÜSTTE ÇIKAN OKA TIKLAYARAK SİZEMODLE DEN AYARLAYABİLİRSİN.
+NOT=İÇ KOMUTLAR BÜYÜK HARFLE BAŞLAR. ÖR:textBox1.Text.Trim();
+NOT = Eğer grupbox eklersen sonra radıo button,secıldıgınde sadece bı tanesı aktıf olur
+
+PROPATİES OLAYLARI;
+
+form;
+APARANCE>BACKCOLOR = ARKAPLAN RENGİ;(FORM İÇİN YAPTIM).
+WindowsState = tam ekran veya kücük ekran çalışmasını sağlıyor.
+IsMdiContainer = formu mdi forma dönüştürmeye yarar.
+formbordersyle =büyülüp kücülme kapanma aşağı atma olaylarını burdan ayarlıyorsun (yani üstte çıkan çarpı ws)
+
+
+
+
+text;
+multilineyi ture yaparsan = texti aşağı yukarı da büyütebilirsin.
+BEHAVİOR>MAXLENGTH = TEXTİN İÇİNE GİRİLEBİLECEK MAX UZUNLUK.(TEXT İÇN YAPTIK)
+BEHAVİOR>PASWORDCHAR = İÇİNE YAZILAN KARAKTERLERİN NASIL GÖZÜKMESİNİ İSTEDİĞİN ŞİFRE İÇİN * GİBİ.(TEXT İÇİN)
+TEXTALİGN = GİRİLEN TEXTİN NEREDE YAZACAĞI CANTER SEÇERSEN ORTASINDA GİBİ (TEXT)
+CHARACTERCASİNG = GİRİLEN TEXTİN BÜYÜK KÜÇÜK GİRİLMESİ
+FONT>BOLD ÖZELLİĞİNİ AKTİF EDERSEN KALINLAŞIR.(AYNI ŞEKİLDE İTALİK VS DE VAR AYNI YERDE)
+
+
+
+Label;
+AutoSize : Label’ın boyutunu ayarlamak için kullanılır.Bu özellik True olur ise; Label’ı tek
+boyutta kullanırız. Yani satır sonunda bir alt satıra geçip devam etmez, sürekli sağa doğru
+yazmaya devam eder. False yaparsak serbestlik kazanırız.
+
+
+
+BUTON İÇİN;
+İMAGE =FOTOGRAF EKLENEBİLİR
+İMAGEALİGN=FOTOGRAFI SAĞA SOLA YASLAMA
+BACKCOLOR =ARKAPLAN RENGİ DEĞİŞTİRME
+TEXTALİGN=TEXTİ SAĞA SOLA YASLAMA
+
+tooltrip için;
+tooltripin üzerine eklediğin butona tıkla >imagescaling = none yaparsan fotografın orjinal boyutuna büyütütr fotografı.
+tooltripin üzerine eklediğin butona tıkla>displaystyle = butonun üzerinde text ve picturenin gözükme olayını ayarlama.
+tooltripin üzerine eklediğin butona tıkla>tooltiptext = masula üstüne geldiğinde yazan şey .
+
+
+COMBOBOX İÇİN;
+DROPDOWNSTYLE>DROPDOWNLİST ve sorted özelliğni true yap = COMBOBOXUN İÇİNDEKİLERİ A DAN Z YE SIRALAR.
+
+
+PANEL İÇİN;
+DOCK ÖZELLİĞİNİ YUKARI SEÇİYORUZ YUKARI YAPIŞIK OLSUN DİYE.
+
+
+****************************************************************************************************************************
+
+SORGULU BİRŞEYLER YAPMAK;ÇIKIŞ ÖRNEĞİ;
+
+
+
+
+
+ Int16 cik; // int değerimiz.
+        private void button3_Click(object sender, EventArgs e)
+        {
+            cik = Convert.ToInt16(MessageBox.Show("Program Kapatılsın mı ? ", "ÇIKIŞ", MessageBoxButtons.YesNo, MessageBoxIcon.Information,
+            MessageBoxDefaultButton.Button2)); // değer verdik değerimiz int oldugu için string çevirdik mesaj verdirdik ekrana
+            //mesaj dan sonra çıkış sonra button ekledik eve hayır sonra icon ekledik sonra da hangisinin aktif button olacağını belirleik.
+            if (cik == 6) // eğer 6 yani evet seçilirse yap
+            {
+                Environment.Exit(0);  //çıkış yap bunun yerine application.exitte kullanabilirdik.
+            }
+            else         //eğer 6 değilse yani 7 yse yani hayırsa
+            {
+                MessageBox.Show("ÇIKIŞ GERÇEKLEŞMEDİ !");  // ekrana mesaj verdik.
+            }
+        }
+
+
+
+
+
+
+
+
+
+****************************************************************************************************************************
+
+
+
+İLETİŞİM KANALI İLE ÇIKIŞ YAPMAK;
+
+
+
+
+
+
+ DialogResult secim; // iletişim kanalı ile de çıkış yapılabilir .
+        private void button4_Click(object sender, EventArgs e)
+        {
+          secim = MessageBox.Show("Programdan Çıkılsın mı ?","ÇIKIŞ",MessageBoxButtons.YesNo);
+          if (secim == DialogResult.Yes)
+          {
+              Application.Exit();
+          }
+
+        }
+
+
+
+
+
+
+
+****************************************************************************************************************************
+
+YENİ FORMA GEÇİŞ.ÖNCEDEN FORMU AÇMAN LAZIM
+
+
+
+
+
+private void button5_Click(object sender, EventArgs e)
+        {
+            Form2 goster1 = new Form2();
+            goster1.Show();
+            this.Close(); //bu sayfayı kapatır.Not:Eğer 1. formu kapatmaya çalışırsanız program komple kapanır cunku 1. form programın kenıdıs sayılıyor.
+            //this.Hide(); //bunu yazarsan sayfayı gizler.
+           // goster1.ShowDialog();  // diğer forma geçiş show dialog arka plana geçmeyi engeller .
+        }
+
+
+
+
+
+
+****************************************************************************************************************************
+
+
+switch case örneği;
+
+
+
+
+
+
+
+ private void button1_Click(object sender, EventArgs e)
+        {
+            int sonuc;
+            if (textBox1.Text == "")    //textbox boşsa aşağıdaki işlemi yap demek.
+            {
+
+                MessageBox.Show("LÜTFEN BİR SAYI GİRİŞİ YAPINIZ.");
+                textBox1.Focus();
+                textBox1.BackColor = Color.Yellow;
+            }
+            else
+            {
+            int sayi = Convert.ToInt32(textBox1.Text); // int değerindeki sayıyı çevirim textbox birden aldı.
+            switch (sayi)
+            {
+                case 1: { MessageBox.Show("BUGÜN GÜNLERDEN ÇARŞAMBA"); break; }
+                case 2:
+                    {
+
+                        sonuc = 3 * 5;
+                        label1.Text = "3 ile 5 çarpımı " + sonuc.ToString();
+                        break;
+
+                    }
+                case 3:
+                case 4:
+                case 5:
+                case 6: { MessageBox.Show("DİZİYİ KULLANDINIZ"); break; }
+                default: { MessageBox.Show("TANIMSIZ SAYI GİRİŞİ"); break; } //yukardakilerden hiçbiri yoksa bunu yap.
+            }
+            }
+
+        }
+
+
+
+
+
+
+
+
+****************************************************************************************************************************
+
+HAFTANIN GÜNLERİNİ BULAN PROGRAM.
+
+
+
+
+
+private void button2_Click(object sender, EventArgs e)
+        {
+            int gun = (int) DateTime.Now.DayOfWeek; //haftanın hangi günü olduğunu pc den sayısal olarak alıyor.
+            
+            switch (gun)
+            {
+                
+                case 1: textBox2.Text = "PAZARTESİ"; break;
+                case 2: textBox2.Text = "SALI"; break;
+                case 3: textBox2.Text = "ÇARŞAMBA"; break;
+                case 4: textBox2.Text = "PERŞEMBE"; break;
+                case 5: textBox2.Text = "CUMA"; break;
+                case 6: textBox2.Text = "CUMARTESİ"; break;
+               case 7: textBox2.Text = "PAZAR"; break;
+           }
+
+        }
+
+
+
+****************************************************************************************************************************
+EĞER CHAR DEĞİŞKENİNDE SWTİCH CASE KURUCAKSAN BU ŞEKİL.
+
+
+
+
+
+  private void button1_Click(object sender, EventArgs e)
+        {
+            char karakter;
+            if (textBox1.Text != "") // boş değilse
+            { // if başlangıç
+                karakter = textBox1.Text[0];  // char tek karakter oldugu için döünüş yapmak zorundayız ve 0 karakter yani 1 karakter dır
+                switch (karakter)
+                { // switch başlangıç
+                    case '0':
+                    case '1':
+                    case '2':
+                    case '3':
+                    case '4':
+                    case '5': MessageBox.Show("0 - 5 aralığındaki sayı kullanıldı ."); break;
+                    case 'a': 
+                    case 'A': MessageBox.Show("3+5 ="+ (3 + 5).ToString()); break;
+                    case '9':
+                        {
+
+                            
+                            break;
+
+                        }
+                    
+                    
+                    default: MessageBox.Show("YANLIŞ TUŞLAMA"); break;
+                 
+                } // switch bitiş
+            } // if bitiş
+            else
+            { // else başlangıç
+                MessageBox.Show("text alanına bir karakter giriniz.");
+            } // else bitiş 
+              
+        }
+
+
+
+
+
+
+
+
+****************************************************************************************************************************
+
+STRUCT YAPISI KULLANMA.
+
+
+
+
+
+
+
+namespace uygulama2
+{
+    public partial class Form2 : Form
+    {
+        public Form2()
+        {
+            InitializeComponent();
+        }
+
+        struct ogrenci
+        {
+            public string ad; public string soyad;
+            public string memleket; public string adres;
+        }
+        ogrenci ogr;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ogr.ad = textBox1.Text.Trim().ToUpper();
+            ogr.soyad = textBox2.Text.Trim().ToUpper();
+            ogr.memleket = textBox3.Text.Trim().ToUpper();
+            ogr.adres = textBox4.Text.Trim().ToUpper();
+            MessageBox.Show(ogr.ad + " " + ogr.soyad + " " + ogr.memleket + "\n" + ogr.adres);
+        }
+    }
+}
+
+
+
+
+
+
+
+****************************************************************************************************************************
+
+//EĞER BÜYÜK VEYA KÜÇÜK HARF DIŞINDA VE SİLME DIŞINDA BİR TUŞA BASILIRSA YOK SAY DEMEK.
+
+
+
+ private void textBox8_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar > 64 || e.KeyChar < 90 && e.KeyChar == 8)
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+
+
+****************************************************************************************************************************
+
+
+//sadece sayı yazılabilir ve silme tuşu onun dışındaki tüm herşeyi yoksay demek
+
+//keyprese yazılır
+
+if (e.KeyChar >= 48 && e.KeyChar <= 57 || e.KeyChar == 8)          
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+
+
+
+
+
+
+****************************************************************************************************************************
+
+
+
+
+//PROCEDURE OLUŞTURMAK;
+
+//EN ÜST YERLERE YAZIYORSUN BUTONLARIN USTUNE
+ private void temizle() 
+    {
+        textBox1.Clear();
+        textBox2.Clear();
+        textBox3.Text = "";
+        MessageBox.Show("Tüm text alanları temizledi ...");
+    }
+
+
+//PROGRAMIN İÇİNDE ÇAĞIRMAK İSTEDİĞİN YERDE;
+temizle(); 
+
+
+
+****************************************************************************************************************************
+
+
+
+//FUNCTİON ;
+//ÜSTE YAZIYOSUN PROCEDURE İLE AYNI ŞEKİLDE;
+
+ private void yazdir(string adi,string soyadi,string memleket )
+        {
+            MessageBox.Show("müsterinin adı : " + adi + "" + soyadi + "\n" + memleket);
+        }
+
+
+//programın içinde
+string adi      = textBox4.Text;
+string soyadi   = textBox5.Text;
+string memleket = textBox6.Text;
+
+yazdir(adi,soyadi,memleket);
+
+//bu şekilde çağrılabilir ve tanımladığın değer 
+//şeklinde programın içinde tanımlanmalıdır
+
+
+
+
+
+
+
+****************************************************************************************************************************
+
+//textboxun keydown özelliğine yazılır. (Aski tuşlarında 13 enter demek)
+//entere basınca textbox9 a imleci focuslatmış
+
+
+
+private void textBox8_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyValue == 13)
+                textBox9.Focus();
+        }
+
+
+
+****************************************************************************************************************************
+
+//FUNCTİONUN BENZERİ BU SEFER SAYI DÖNDÜRÜYOR.
+
+ string adsoyad;
+        string ders;
+        double vize, final;
+
+        double hesapla(double vize, double final)
+        {
+            double ortalama;
+            ortalama = (vize + final) / 2;
+            return ortalama;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            adsoyad = textBox7.Text.Trim();
+            ders = textBox8.Text.Trim();
+            vize = Convert.ToDouble(textBox9.Text);
+            final = Convert.ToDouble(textBox10.Text);
+            textBox11.Text = adsoyad + "öğrencisi " + ders + "dersinden" + hesapla(vize, final) + "ortalama almıştır .";
+        }
+
+
+
+
+
+****************************************************************************************************************************
+
+
+//FUCTİONLAR GERİ DÖNÜŞLÜ FAKTÖRİYEL ALAN PROGRAM.
+
+
+Int64 faktoriyel(Int64 sayi)
+        {
+            int fakt = 1;
+            for (int i = 1; i <= sayi; i++)
+            {
+                fakt = fakt * i;
+            }
+            return fakt;
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Int64 sayi = Convert.ToInt64(textBox1.Text);
+            if (sayi > 0 && sayi <= 8)
+            {
+                textBox2.Text = sayi + "! =" + faktoriyel(sayi); 
+            }
+        }
+
+
+
+
+
+
+
+****************************************************************************************************************************
+
+
+
+//LİSTBOXA ÇİFT SAYILARI YAZDIRDIK.BASİT ŞEKİLDE,FOR FÖNGÜSÜYLE.
+
+
+
+ for (int i = 0; i <= 10; i++) // çift yazmak için
+            {
+                if (i % 2 == 0)
+                {
+                    listBox1.Items.Add("SELAM KAÇMAZ : "+i);
+                }
+            }
+
+
+
+
+
+****************************************************************************************************************************
+
+try catch finally 
+try =hata çıkartabilecek kod araya yazılır.bu bloğun arasına
+catch=hata mesajları buralara yazılır.
+finall=işlemler bittikten sonra en son yapılacaklar buraya yazılır.temizleme işleri gibi.
+
+
+
+
+
+namespace uygulama_3
+{
+    public partial class Form2 : Form
+    {
+        public Form2()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                byte a = Convert.ToByte(textBox1.Text);
+                byte b = Convert.ToByte(textBox2.Text);
+                int c = a + b;
+                MessageBox.Show("SAYILARIN TOPLMAMI :" + c);
+            }
+            catch (FormatException hata1)  //tek exceptionda yazılabilir.(emin değilim.)
+            {
+                MessageBox.Show("LUTFEN TEXT ALANLARINA SAYI GİRİNİZ\n\n" + hata1);
+            }
+            catch(OverflowException hata2)
+            {
+                MessageBox.Show("0-255 ARASI SAY GİRİLMEDİ\n\n"+hata2);
+            }
+            finally
+            {
+                textBox1.Clear();
+                textBox2.Clear();
+                textBox1.Focus();
+            }
+        }
+    }
+}
+
+
+
+
+
+****************************************************************************************************************************
+
+//TEXTCHANGED E YAZILAN BU ÖZELLİK BASAMAK SAYISINA GÖRE ANLIK OLARAK TİMER GİBİ UYARI VERİR.
+
+
+
+
+
+private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox1.Text.Length > 2)
+            {
+                MessageBox.Show("İKİ  BASAMAKLI DEĞER GİRMEDİNİZ");
+                textBox1.Clear();
+            }
+        }
+
+
+
+
+
+****************************************************************************************************************************
+
+
+// inputbox yapımı 
+//önce sağ taraftaki solitiondan references kısmına sağ tıklayıp visual basicin tikini aktif ediyoruz.
+//en üst tarafa  -  using Microsoft.VisualBasic;  - olarak tanımlıyoruz.
+
+
+
+ private void button2_Click(object sender, EventArgs e)
+        {
+            int toplam = 0; double ortalama=0;
+            int i;
+            for (i = 1; i <= 5; i++)
+            {
+                toplam += Convert.ToInt32(Interaction.InputBox(i + "  .  SAYIYI GİRİNİZ ?", "SAYI GİRİŞİ", "BURAY YAZINIZ"));
+            
+            }
+            ortalama = toplam / 5;
+            MessageBox.Show("SAYILARIN TOPLAMI :" + toplam + "\nSAYILARIN ORTALAMASI : " + ortalama);
+
+        }
+
+
+//bu şekilde for döngüsüyle kullanıyoruz.
+
+
+
+
+
+
+
+****************************************************************************************************************************
+
+//dosyanın varlık kontrolü ve dosyaya yazma
+
+
+
+
+//dosyaya yazmak için ilk olarak sitemin en üstüne -  using System.IO;  - ekliyoruz.
+//programın içinde program klasörü>bin>debug>buraya not defterini ekliyoruz.
+
+
+//bilgiler.txt var mı diye kontrol ediyorsun.yoksa yaptırıyorsun.
+//formun loadına yazılır.
+
+
+//klasörün içindeki bilgiler . txt ye yazarken ogr/bilgiler.txt yeterli olurken eğer ters \ kullanırsanız \\  2 tane kullanmanız gerekir.
+
+ if (File.Exists("bilgiler.txt") == true)
+            {
+                MessageBox.Show("bilgiler.txt dosyası vardır .");
+            }
+            else
+            {
+                MessageBox.Show("bilgiler.txt dosyası yoktu !! ");
+                DialogResult sor;
+                sor = MessageBox.Show("bilgiler.txt dosyası yaratılsınmı ", "DOSYA OLUŞTURMA", MessageBoxButtons.YesNo);
+                if (sor == DialogResult.Yes)
+                {
+                    StreamWriter dosya;
+                    dosya = File.CreateText("bilgiler.txt");
+                    dosya.Close();
+
+                }
+
+***************************************************************************************************************************************
+
+//kaydedip formu temizletiyorsun
+//butona yazılır.
+
+
+    StreamWriter kaydet;
+            kaydet = File.AppendText("bilgiler.txt");
+            kaydet.WriteLine(textBox1 .Text +"\t\t"+comboBox1 .Text +"\t\t"+richTextBox1 .Text );
+            kaydet.Close();
+            MessageBox.Show("BİLGİLER BAŞARIYLA KAYDEDİLDİ ");
+            textBox1.Clear();
+            comboBox1.SelectedIndex = -1;
+            richTextBox1.Clear();
+            textBox1.Focus();
+
+
+
+
+
+
+****************************************************************************************************************************
+
+
+//PROGRESSBAR EKLEME (YÜKLEME EKRANI);
+
+
+//ÖNCE BİR PROGRESSBAR ATIYORSUN
+//YAZDIRMAK İÇİN BİDE LABEL
+//TİMER ATIYORSUN VE TİMERİN İÇİNE;
+
+
+ progressBar1.Value = progressBar1.Value + 2;
+            label1.Text = "Program yükleniyor. Bekleyiniz % " + progressBar1.Value;
+
+            if (progressBar1.Value == 100)
+            {
+                timer1.Enabled = false;
+                this.Hide();
+                Form2 mahmut = new Form2();
+                mahmut.ShowDialog();
+                this.Close();
+
+
+
+
+
+
+
+
+
+
+
+****************************************************************************************************************************
+
+//listbox 1 deki seçtiğini listbox2 ye atıp 1 den silme ve boş olduğunda butonun tıklanma özelliğni katpatma.
+
+ private void button1_Click(object sender, EventArgs e)
+        {
+           
+            listBox2.Items.Add(listBox1.SelectedItem);      // listbox 1 deki seçili şeyi listbox2 ye at
+            listBox1.Items.Remove(listBox1.SelectedItem);  //listbox 1 deki seçili seyi listbox 1 den çıkart
+            if (listBox1.Items.Count == 0)                //listbox 1 in içi boşsa yap
+            {
+                button1.Enabled = false;                   //butonun tıklanabilir özelliğini kapat.
+            }
+           
+        }
+
+
+
+
+****************************************************************************************************************************
+
+
+//girilen sayının bölünüp bölünemediğini bulan program mod alma
+
+
+ private void button1_Click(object sender, EventArgs e)
+        {
+            int sayi = Convert.ToInt16(textBox1.Text);
+            if (sayi % 6==0)
+            {
+                MessageBox.Show("bolünür");
+            }else
+	{
+        MessageBox.Show("bölünmez");  
+	}
+
+
+
+
+
+****************************************************************************************************************************
+
+//Random Komutu ve Rastgele Şifre Üretme /Referans No
+
+
+
+
+ Random rastgele = new Random(); 
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            durum = true;
+            int sayi1 = rastgele.Next(100);
+            string harfler = "ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZabcçdefgğhıijklmnoöprsştuüvyz";
+            string uret = "";
+            for (int i = 0; i < 6; i++)
+            {
+                uret += harfler[rastgele.Next(harfler.Length)];
+            }
+            textBox1.Text = uret;
+
+        }
+
+//formun loadı yani form açılır açılmaz harfler stringinin içindeki rastgele harflerden bir random referans no üretiyor bunun içine istediğinizi ekleyebilirsiniz.
+//forun amacı kaç basamaklı şifre olması 
+
+
+
+
+
+
+
+****************************************************************************************************************************
+//Class Açma ve Class İşlemleri
+//clastaki şeyi programda kullanmak
+
+//form oluşturur gibi class oluşturuyoruz.
+//clasa using system.windows.forms; kütüphanesini ekliyoruz.
+//içine public void atıyoruz örnek;  NOT = aynı isimde public void kullanılamaz.
+
+//clasta tanımladık;
+public void yazdır()
+{
+Messagebox.Show("Metin");
+}
+
+
+//programın içinde çağırmak için
+
+class1 goster = new class1();
+goster.yazdır();
+
+
+*****************************************************************************************************************************
+//programdaki şeyi classta kullanmak//function
+
+
+//programın içi
+
+FHESAPLA faktoryel = new FHESAPLA();     //FHESAPLA clasını tanıtıyoruz.
+        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+
+                int sayi = Convert.ToInt32(textBox1.Text.Trim());
+
+                MessageBox.Show("girilen sayının faktoryeli  " + faktoryel.hesapla(sayi)); //fakroriyelin içindeki hesapla functionuna 
+
+            }
+            catch
+            {
+                MessageBox.Show("nütfen sayi giriniz");
+            }
+            finally
+            {
+                textBox1.Clear();
+            }
+
+
+
+
+//classın içi
+
+ class FHESAPLA
+    {
+        public int hesapla(int sayi)
+        {
+            int sonuc = 1;
+            for (int i = 1; i <= sayi; i++)
+            {
+                sonuc = sonuc * i;
+            }
+            return sonuc;   // sonucu donduruyoruz yani programın içinde gönderdiğimiz zaman burası gelicek.
+
+        }
+
+
+
+*****************************************************************************************************************************
+//function ve procedure.
+
+//bu bir functiondur dışardan değer girmek gerekir.
+
+public int hesapla(int sayi)  
+        {
+            int sonuc = 1;
+            for (int i = 1; i <= sayi; i++)
+            {
+                sonuc = sonuc * i;
+            }
+            return sonuc;   // sonucu donduruyoruz yani programın içinde gönderdiğimiz zaman burası gelicek.
+
+        }
+
+//clasa yazarsan programda çalıştırmak için;
+
+//programa tanıtmış olman lazım //şuna benzer FHESAPLA faktoryel = new FHESAPLA();
+MessageBox.Show("girilen sayının faktoryeli  " + faktoryel.hesapla(sayi)); //bu şekilde yollanır ve return alınır.
+
+
+//bu bir proceduredir dışardan değer girmek gerekmez.
+//aradaki fark = void 
+
+public void ogrenci() // genel heryerde çalışcan // void=procedure 
+        
+        {
+                 MessageBox.Show("metin");
+
+        }
+
+
+
+//clasa yazarsan programda çapırmak için;
+
+ private void button1_Click(object sender, EventArgs e)
+        {
+            Class1 goster = new Class1();
+            goster.ogrenci();
+        }
+
+*****************************************************************************************************************************
+
+//clasta değişken tanımlama ve kullanma
+
+
+//clasta tanımlama
+
+
+ class Class2
+    {
+        public string ADI, SOYADI;
+        public int gelir;
+
+    }
+
+
+
+//programda kullanma.
+
+Class2 kullan = new Class2();
+            kullan.ADI = "selam";
+            kullan.SOYADI = "kaçmaz";
+            kullan.gelir = 3500;
+
+            MessageBox.Show(kullan.ADI + " " + kullan.SOYADI + " " + kullan.gelir);
+
+            textBox1.Text = kullan.ADI;
+            textBox2.Text = kullan.SOYADI;
+            textBox3.Text = kullan.gelir.ToString("c"); // parantez içindeki bu ifade tl işareti gösterir.
+
+
+
+*****************************************************************************************************************************
+
+//clasla string yazdırma örnek uygulama
+
+
+//clasta
+
+class bilgiler
+    {
+        public string ad;
+        public string soyad;
+        public string ders;
+
+        public string al; // gosterimi yapacak olan değişken !!
+
+        public void goster()
+
+    {
+        al = "öğrencinin adı : " + ad + " soyadı " + soyad + " dersi " + ders;  
+            
+    }
+
+// programın içinde
+
+ bilgiler bilgi = new bilgiler();
+
+            bilgi.ad = textBox4.Text.Trim();
+            bilgi.soyad = textBox5.Text.Trim();
+            bilgi.ders = comboBox1.Text;
+            bilgi.goster();
+           
+
+            MessageBox.Show(bilgi.al);
+
+
+
+
+*****************************************************************************************************************************
+
+//dairenin alanını ve yarıçapını bulan program (class örnek)
+
+//clasına
+
+class Class3
+    {
+        public double alan(double yaricap)
+        {
+            return Convert.ToDouble(Math.PI*Math.Pow(yaricap,2));
+        }
+
+        public double cevre(double yaricap)
+        {
+
+            return Convert.ToDouble(2*Math.PI*yaricap);
+        }
+
+    }
+
+//programın içine
+
+
+   double yaricap = Convert.ToDouble(textBox1.Text.Trim());
+                Class3 hesapla = new Class3();
+               
+                label2.Text = "dairenin alanı :  "  + Math.Round(hesapla.alan(yaricap),2) ;
+                label3.Text = "dairenin cevresi : " + Math.Round(hesapla.cevre(yaricap),2);
+
+                textBox1.Clear();
+
+
+*****************************************************************************************************************************
+ // checkboxun paswordchar olayı //şifrenin yıldızlı olmasını göster gizle
+
+
+ private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true) textBox2.PasswordChar = '\0'; //orjinal olsun demek.burada \0 varsayılan neyse onu yazsın demek.
+            else textBox2.PasswordChar = '*'; //char olunca tek tırnak string olunca çift (tahmin ediyorum);
+            
+            
+        }
+
+
+
+*****************************************************************************************************************************
+// kullanıcı girişi olayı // şifreli giriş 
+
+
+
+string kullanici = "AHMET"; string sifre = "KAGAN"; int sayac = 3;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if( textBox1.Text.Trim() == "")  MessageBox.Show("Lütfen Kullanıcı Adını Boş Bırakmayın ..");
+            else if(textBox2.Text.Trim() =="") MessageBox.Show("Lütfen Şifreyi Boş Bırakmayın ..");
+            else
+            {
+                
+                if ((textBox1.Text.Trim() == kullanici) && (textBox2.Text.Trim() == sifre))
+                {
+                    Form2 goster1 = new Form2();
+                    goster1.ShowDialog();
+                    this.Close();
+
+                }//ifin endi.
+                else
+                {
+                    sayac = sayac - 1;
+                    MessageBox.Show("Hatali Giris." + "KALAN HAK = " + sayac);
+                    if (sayac == 0) { MessageBox.Show("Hakkıniz bitti.."); Application.Exit(); }// uygulamayı kapat demek //this.Close(); bu formu kapat demek;
+                        
+                    
+                }//elsin endi.
+            
+            }
+            
+        }
+
+
+
+
+*****************************************************************************************************************************
+11.Hafta not
+
+//foreach ile seçili checkedlerden doğru olanı bulma.
+// foreach ile groupboxtaki radio butonları pasif etme. //foreach ile groupbox sorgulama.
+
+
+//foreach ile doğru olan seçenekleri ve yanlış olanları sayıyor.
+void hesapla(RadioButton secilen) //radiobutona isim verdik 
+        {
+
+            if (secilen.Checked==true) //radiobutonların hepsinde gönderdiğimiz secılmısse 
+            {
+                dogru++;
+
+            }
+            else
+            {
+                yanlış++;
+            }
+
+            label1.Text = "Doğru sayısı = " + dogru;
+            label2.Text = "Yanlış sayısı = " + yanlış;
+        
+        }//voidin endi;
+        int dogru = 0; int yanlış = 0;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            dogru = 0; yanlış = 0;
+            hesapla(radioButton4); //doğru radio butonu yolladık .
+            hesapla(radioButton9);
+            hesapla(radioButton12);
+            hesapla(radioButton18);
+            hesapla(radioButton25);
+            DialogResult sor;
+            sor = MessageBox.Show("Anket Bilgileri Kaydedilsin Mi?", "Kayıt Yapma", MessageBoxButtons.YesNo);
+            if (sor == DialogResult.Yes) 
+            {
+                StreamWriter kaydet;
+                kaydet = File.AppendText("anket/anketler.txt"); //bu dosyaya (debuga oluşturduğumuz klasörün içine)
+                kaydet.WriteLine(textBox1.Text + "\t\t" + textBox2.Text + "\t\t" + textBox3.Text + "\t\t" + dogru + "\t\t"+yanlış); //bunları yazdık.
+                kaydet.Close();
+                MessageBox.Show("BİLGİLER BAŞARIYLA KAYDEDİLDİ ");
+            
+            }//if endi.
+
+        
+        }
+
+
+*************************************************
+
+//groupbox un içindeki radio butonları pasif etme.
+
+
+
+
+
+void temizle()
+        {
+            foreach (Control ctl in this.Controls) //bu formu kontrol et
+                if (ctl is GroupBox) // formdaki groupbaxların içini kontrolo et
+                //Dolaşmaya başla
+                {
+                    foreach (Control karakterim in ctl.Controls) //group boxları kontrol et
+                    {
+
+                        if (karakterim is RadioButton) //groupboxtaki checkboxları kontrol et
+                        {
+
+                            RadioButton cbox = new RadioButton(); //tanıtıp
+                            cbox = (RadioButton)karakterim;
+
+                            cbox.Checked = false; //seçilme özelliklerini false ediyoruz.
+                        }
+
+                    }
+                }
+        
+        }
+
+
+
+//programın içinde temizle(); diye çağrılır.
+
+
+
+*****************************************************************************************************************************
+12.HAFTA 1. UYGULAMA
+
+//TÜM DOSYA İŞEMLERİ
+
+
+
+
+
+private void button1_Click(object sender, EventArgs e) //DOSYA KONTROL
+        {
+            if (File.Exists("ogr/bilgiler.txt") == true)
+            {
+                MessageBox.Show("bilgiler.txt dosyası VARDIR .");
+            }
+            else
+            {
+                MessageBox.Show("Bilgiler.txt dosyası YOKTUR.");
+                DialogResult sor;
+                sor = MessageBox.Show("bilgiler.txt dosyası yaratılsınmı ", "TXT OLUŞTURMA", MessageBoxButtons.YesNo,MessageBoxIcon.Information);
+                if (sor == DialogResult.Yes)
+                {
+                    StreamWriter dosya;
+                    dosya = File.CreateText("ogr/bilgiler.txt");
+                    dosya.WriteLine("PROGRAMLAMA");
+                    dosya.Close();
+                
+                }//idin endi.
+            }//elsin endi.
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)//DOSYA KOPYALAMAK
+        {
+            DialogResult sor;
+            sor = MessageBox.Show("bilgiler.txt dosyasını kopyalansın mı ? ", "TXT KOPYALAMA", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (sor == DialogResult.Yes)
+            {
+                File.Copy("ogr/bilgiler.txt","kopya/yedekbilgiler.txt",true); // yanına eklediğimiz true eğer daha önceden kopyalandıysa üzerine yazamaya yarıyor.
+                MessageBox.Show("KOPYALAMA İŞLEMİ BAŞARIYLA TAMAMLAMDI.");
+
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)//DOSYA TAŞIMA
+        {
+            DialogResult sor;
+            sor = MessageBox.Show("bilgiler.txt dosyası taşınsın mı? ", "TXT TAŞIMA", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (sor == DialogResult.Yes)
+            {
+                File.Move("ogr/bilgiler.txt","kopya/taşındı.txt"); // ilk yer taşdığın şey 2. yerde taşıdığın yer //taşıdığın yere gönderirken ismini değiştirirsen değişir.
+                MessageBox.Show("TAŞIMA İŞLEMİ BAŞARIYLA TAMAMLAMDI.");
+
+            }
+
+        }
+
+        private void button2_Click(object sender, EventArgs e) //DOSYA SİLMEK
+        {
+            DialogResult sor;
+            sor = MessageBox.Show("TAŞINDI.TXT SİLİNSİN Mİ ? ", "TXT SİLME ", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            if (sor == DialogResult.Yes)
+            {
+                File.Delete("kopya/taşındı.txt");
+                MessageBox.Show("Silme İŞLEMİ BAŞARIYLA TAMAMLAMDI.");
+
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)//KLASÖR OLUŞTURMA
+        {
+            if(Directory.Exists("aga")==true)  // aga dosyası var mı diyoruz. dosyaların uzantısı olmadığı için uzantı koymuyoruz.
+            {
+                MessageBox.Show("aga Adında bir dosya vardır.");
+            
+            }//if in
+            else
+            {
+                MessageBox.Show("aga Adında bir dosya yoktur.");
+                DialogResult sor;
+                sor = MessageBox.Show("aga adında dosya oluşturulsun mu ? ", "KLASÖR OLUŞTURMA", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                if (sor == DialogResult.Yes)
+                {
+
+                    Directory.CreateDirectory("aga");
+                }
+            
+            }//else in
+        }
+
+        private void button6_Click(object sender, EventArgs e)//KLASÖR KOPYALAMA
+        {
+            Directory.Move("ogr","aga/ogrtası");  //ilki gidecek dosya//ikincisi içine atılacak olan dosya / ' dan sonrası giderken verilecek isim.
+            MessageBox.Show("Görev Başarılı.");
+        }
+
+        private void button7_Click(object sender, EventArgs e)//KLASÖR SİLME
+        {
+            Directory.Delete("aga/ogrtası",true);//true koymamızın sebebi klasörün içide doluysa komple sil demek yoksa silmiyor.
+            MessageBox.Show("Görev Başarılı");
+        }
+
+
+
+*****************************************************************************************************************************
+12.hafta 2. Uygulama 
+//open file dialog nesne eklemeden (nesne ekli halleri 12.uygulamanın 2. uygulamasında)
+
+
+
+
+ private void button1_Click(object sender, EventArgs e) //seçtiğin belgedeki yazıları richtextboxa yazar.
+        {
+            OpenFileDialog dosya = new OpenFileDialog();
+            dosya.InitialDirectory = "C:\\";
+           // dosya.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop)  // dosya açma penceresi açılınca masaüstünden getiriyor direk.
+            dosya.Filter = "Tüm Dosyalar(*.*)|*.*|Metin Belgesi(*.txt)|*.txt|Word Belgesi(*.docx)|*.docx";
+            dosya.FilterIndex = 2;
+            dosya.Title = "Secilen Belgeleri Açar...";
+            dosya.Multiselect = true;
+            dosya.CheckFileExists = false;
+            dosya.RestoreDirectory = true;
+           // dosya.ShowDialog();
+            if (dosya.ShowDialog() == DialogResult.OK)
+            {
+                MessageBox.Show(dosya.FileName);//Secilen dosyanın yolu
+                MessageBox.Show(dosya.SafeFileName);//Secilen dosyaların adı
+            
+            
+            }
+        }
+
+
+****************************************
+
+//nesne eklemeden font dialog (nesne ekli halleri 12.uygulamanın 2. uygulamasında)
+
+
+
+private void button3_Click(object sender, EventArgs e)  //richoxtaki yazının font ayarlarını değiştirmeye yarıyor.
+        {
+            FontDialog bicim = new FontDialog();
+            bicim.ShowColor = true;
+            bicim.MinSize = 12;
+            bicim.MaxSize = 52;
+            bicim.ShowDialog();
+            richTextBox1.SelectionFont = bicim.Font;
+            richTextBox1.SelectionColor = bicim.Color;
+        }
+
+
+
+
+
+
+*****************************************************************************************************************************
+13.Uygulama
+
+//FORMUN RENGİNİ DEĞİŞTİRME COLORDİOLOGLA 
+//YAZICIYALA YAZDIRMA
+//TEXTE YAZILANI PROGRAMA KAYDETME. 
+FORM 1:
+
+//colordialog   
+//printdialog        
+                                    // bunlar çıktığında 13. uygulamaya bak çünkü o  diologların proparitiesindede yapman gereken şeyler var.!!!
+//printdocument
+//savefiledialog
+
+
+***************************************************
+
+FORM 2:
+// F1 F2 TARZI TUŞLARA BASILINCA TARİHLERİ EKRANA YAZAN PROGRAM
+// HANGİ TUŞA BASARSAN LİSTEYE YAZAN PROGRAM
+
+
+
+
+
+ private void textBox1_KeyPress(object sender, KeyPressEventArgs e) // KEYPRESE 123 GİBİ ASD GİBİ ŞEYLERİ YAZMAK DAHA MANTIKLIYMIŞ  KEYDOWNA DA F1 F2 GİBİ TUŞLARI.
+        {
+            string[] rakam = { "SIFIR ", "BİR ", "İKİ ", "ÜÇ ", "DÖRT ", "BEŞ ", "ALTI ", "YEDİ ", "SEKİZ ", "DOKUZ " };
+
+            if(e.KeyChar >= '0' && e.KeyChar <= '9')
+
+            {
+
+                textBox1.SelectedText = rakam[e.KeyChar - (char)'0'];//sadece basılanı gösterir.
+                //textbob1.selectedindex derse ardı ardına ekler 
+                e.Handled = true;//bu ifade yazılmaz ise basılan ifade ve metin birlikte gözükür.
+
+            
+            }
+        }
+
+
+
+private void textBox1_KeyDown(object sender, KeyEventArgs e) // F1 F2 GİBİ TUŞLARA BASINCA TARİHLERİ EKRANA YAZIYOR.
+        {
+          /*  switch (e.KeyCode)
+            {
+                case Keys.F1: textBox1.SelectedText = DateTime.Now.ToLongDateString();  // selected index yerine sadece text yazsak yukarda olduğu gibi tek sefer yazar arka arkaya eklemez.
+                    break;
+                case Keys.F2: textBox1.SelectedText = DateTime.Now.ToShortDateString();
+                    break;
+                case Keys.F5: textBox1.SelectedText = DateTime.Now.ToString();
+                    break;
+                      }
+           */
+            //veya
+            /*
+                if(e.KeyCode == Keys.F1)
+                {textBox1.SelectedText = DateTime.Now.ToLongDateString();}
+                 if(e.KeyCode == Keys.F2)
+                 {textBox1.SelectedText = DateTime.Now.ToShortDateString();}
+                 if(e.KeyCode == Keys.F5)
+                 {textBox1.SelectedText = DateTime.Now.ToString();}
+            */
+            //veya
+            if (e.KeyValue == Convert.ToInt32(Keys.F1))
+            { textBox1.SelectedText = DateTime.Now.ToLongDateString(); }       //14 Ocak 2021 Perşembe
+            if (e.KeyValue == Convert.ToInt32(Keys.F2))
+            { textBox1.SelectedText = DateTime.Now.ToShortDateString(); }      //14.01.2021
+            if (e.KeyValue == Convert.ToInt32(Keys.F5))
+            { textBox1.SelectedText = DateTime.Now.ToString(); }               // 14.01.2021 20:37:42
+
+
+            }
+
+
+
+***************************************************
+FORM 3 :
+
+//LİSTBOXUN İTEMLERİNİ ARTAN VE AZALAN SIRALAYAN PROGRAM.
+
+
+ string[] isimler = new string[5];
+        private void Form3_Load(object sender, EventArgs e)
+        {
+          
+            isimler[0]= "SELAM KAÇMAZ";
+            isimler[1] = "MEHMET KAÇMAZ";
+            isimler[2] = "OSMAN KAÇAK";
+            isimler[3] = "ADANA SORGU";
+            isimler[4] = "MEHMET HOCA";
+            
+            listBox1.Items.Add(isimler[0]);
+            listBox1.Items.Add(isimler[1]);
+            listBox1.Items.Add(isimler[2]);
+            listBox1.Items.Add(isimler[3]);
+            listBox1.Items.Add(isimler[4]);
+          
+            
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //ARTAN SIRALAMA
+            listBox1.Items.Clear();
+            Array.Sort(isimler);
+            for (int i = 0; i <= 4; i++)
+            {
+                listBox1.Items.Add(isimler[i]);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //AZALAN SIRALAMA
+            listBox1.Items.Clear();
+            Array.Sort(isimler);
+            for (int i = 4; i >= 0; i--)
+            {
+                listBox1.Items.Add(isimler[i]);
+            }
+
+        }
+        public static string ad, soyad;
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ad = textBox1.Text;
+            soyad = textBox2.Text;
+            Form4 goster = new Form4();
+            goster.ShowDialog();
+
+        //FORM 4 Ü AÇTIKTAN SONRA ORDAKİ TEKSTLERDE PUBLİC STATİKİ KULLANMAK İÇİN 
+
+      textBox1.Text = Form3.ad;
+            textBox2.Text = Form3.soyad; OLARAK KULLANILABİLİR.
+
+        }
+
+
+
+***************************************************
+FORM 5 :
+
+//COMBOYA YAZILANLARI RİCHTEXTBOXA AKTARAN PROGRAM.
+
+ private void Form5_Load(object sender, EventArgs e)
+        {
+            comboBox1.Items.Add("AKDENİZ BÖLGESİ");
+            comboBox1.Items.Add("MARMARA BÖLGESİ");
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        
+            int secim;
+            secim = comboBox1.SelectedIndex;//indekse göre aldık yani sırasına göre ama istersek textine görede alabilirdik. //textine almak istersek 
+           /* if (secim == "AKDENİZ BÖLGESİ")
+            {
+                comboBox2.Items.Add("ANTALYA");
+                comboBox2.Items.Add("ADANA");
+                comboBox2.Items.Add("MERSİN");
+            }*/ 
+            //şeklinde olurdu ama değişkeni string yapmak gerekirdi.
+            comboBox2.Items.Clear();
+            if (secim == 0)
+            {
+              
+                comboBox2.Items.Add("ANTALYA");
+                comboBox2.Items.Add("ADANA");
+                comboBox2.Items.Add("MERSİN");
+            
+            }
+            if (secim == 1)
+            {
+               
+                comboBox2.Items.Add("İSTANBUL");
+                comboBox2.Items.Add("EDİRNE");
+                comboBox2.Items.Add("BURSA");
+
+
+            }
+
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            richTextBox1.AppendText(comboBox1.Text+" "+ comboBox2.Text+"\n");
+            label1.Text = "Toplam Kayıt Sayısı = " + (richTextBox1.Lines.Count() - 1);
+
+        }
+
+
+
+
+*****************************************************************************************************************************
+14.UYGULAMA
+
+1.FORM:
+
+//İNPUTBOX İLE DİZİYE ELEMAN EKLEME VE ORTALAMLARINI EKRANA YAZMA 
+
+
+int[] sayilar = new int[5];  // DİZİLİ YAPIMI
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // input bas için yukarı using Microsoft.VisualBasic; kütüphanesini ekleriz sonra referance bölümünde sağ tuş add refarecne
+            int toplam = 0; double ortalama = 0.0;
+            int i;
+
+            for (i = 0; i <= 4; i++) // diziler gerçekte 0 dan başlar Version yoplam 5 eleamn olur
+            {
+                sayilar[i] = Convert.ToInt32(Interaction.InputBox(i + 1+".  sayıyı giriniz", "SAYILARI GİRİNİZ", "buraya yazınız"));
+                toplam = sayilar[i] + toplam;
+            }
+            ortalama = toplam / 5;
+            MessageBox.Show("SAYILARIN TOPLAMI " + toplam + "\nSAYILARIN ORTALAMASI " + ortalama);
+        }
+
+
+
+
+2.FORM :
+
+//İNPUTBOX İLE DİZİSİZ ELEMAN EKLEME VE ORTALAMLARINI EKRANA YAZMA 
+
+
+int sayilar; // DİZİSİZ YAPIMI 
+        private void button1_Click(object sender, EventArgs e)
+        {
+             // input bas için yukarı using Microsoft.VisualBasic; kütüphanesini ekleriz sonra referance bölümünde sağ tuş add refarecne
+            int toplam = 0; double ortalama = 0.0;
+            int i;
+
+            for (i = 0; i <= 4; i++) 
+            {
+                sayilar= Convert.ToInt32(Interaction.InputBox(i + 1+ ".  sayıyı giriniz", "SAYILARI GİRİNİZ", "buraya yazınız"));
+                toplam = sayilar + toplam;
+            }
+            ortalama = toplam / 5;
+            MessageBox.Show("SAYILARIN TOPLAMI " + toplam + "\nSAYILARIN ORTALAMASI " + ortalama);
+        }
+
+
+3.FORM:
+
+//DOSYADAN VERİLERİ NORMAL ŞEKİLDE OKUYUP FARKLI YERLERE YAZMA.
+
+
+
+ private void button1_Click(object sender, EventArgs e)
+        {
+            //2. bi yötemle dosyadan okuma
+            StreamReader dosya = File.OpenText("ogr/bilgiler.txt");
+            while (!dosya.EndOfStream)
+            {
+                string yazi = dosya.ReadLine();
+                listBox1.Items.Add(yazi );
+                comboBox1.Items.Add(yazi );
+                richTextBox1.Text += yazi + "\n";
+                textBox1.Text += yazi + "\n" ;
+ 
+            }
+
+
+
+4.FORM:
+
+//DOSYADAN VERİLERİ FOREACH İLE OKUYUP FARKLI YERLERE YAZMA.
+
+private void button1_Click(object sender, EventArgs e)
+        {
+            string[] dosya = File.ReadAllLines("ogr/bilgiler.txt");
+            foreach (string veriler in dosya)
+            {
+                listBox1.Items.Add(veriler);
+                comboBox1.Items.Add(veriler );
+                richTextBox1.Text += veriler + "\n";
+                textBox1.Text += veriler + "\n";
+            }
+
+
+        }
+
+
+

@@ -1,0 +1,12 @@
+c:\users\mehmet\Desktop\3.SORU\3.SORU\bin\Debug\3.SORU.exe.config
+c:\users\mehmet\Desktop\3.SORU\3.SORU\bin\Debug\3.SORU.exe
+c:\users\mehmet\Desktop\3.SORU\3.SORU\bin\Debug\3.SORU.pdb
+c:\users\mehmet\Desktop\3.SORU\3.SORU\obj\Debug\3.SORU.csprojResolveAssemblyReference.cache
+c:\users\mehmet\Desktop\3.SORU\3.SORU\obj\Debug\_3.SORU.Form1.resources
+c:\users\mehmet\Desktop\3.SORU\3.SORU\obj\Debug\_3.SORU.Properties.Resources.resources
+c:\users\mehmet\Desktop\3.SORU\3.SORU\obj\Debug\3.SORU.csproj.GenerateResource.Cache
+c:\users\mehmet\Desktop\3.SORU\3.SORU\obj\Debug\3.SORU.exe
+c:\users\mehmet\Desktop\3.SORU\3.SORU\obj\Debug\3.SORU.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\1.DÖNEM\UYGULAMA\C#ÇALIŞMA\ESKİ ÇIKMIŞ SORULAR\3.SORU\3.SORU\bin\Debug\3.SORU.exe.config
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\1.DÖNEM\UYGULAMA\C#ÇALIŞMA\ESKİ ÇIKMIŞ SORULAR\3.SORU\3.SORU\obj\Debug\3.SORU.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\1.DÖNEM\UYGULAMA\C#ÇALIŞMA\ESKİ ÇIKMIŞ SORULAR\3.SORU\3.SORU\obj\Debug\3.SORU.pdb

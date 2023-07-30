@@ -1,0 +1,9 @@
+c:\users\mehmet\Desktop\6.SORU\6.SORU\bin\Debug\6.SORU.exe.config
+C:\Users\MEHMET\Desktop\6.SORU\6.SORU\bin\Debug\6.SORU.exe
+C:\Users\MEHMET\Desktop\6.SORU\6.SORU\bin\Debug\6.SORU.pdb
+C:\Users\MEHMET\Desktop\6.SORU\6.SORU\obj\Debug\6.SORU.csprojResolveAssemblyReference.cache
+C:\Users\MEHMET\Desktop\6.SORU\6.SORU\obj\Debug\_6.SORU.Form1.resources
+C:\Users\MEHMET\Desktop\6.SORU\6.SORU\obj\Debug\_6.SORU.Properties.Resources.resources
+C:\Users\MEHMET\Desktop\6.SORU\6.SORU\obj\Debug\6.SORU.csproj.GenerateResource.Cache
+C:\Users\MEHMET\Desktop\6.SORU\6.SORU\obj\Debug\6.SORU.exe
+C:\Users\MEHMET\Desktop\6.SORU\6.SORU\obj\Debug\6.SORU.pdb

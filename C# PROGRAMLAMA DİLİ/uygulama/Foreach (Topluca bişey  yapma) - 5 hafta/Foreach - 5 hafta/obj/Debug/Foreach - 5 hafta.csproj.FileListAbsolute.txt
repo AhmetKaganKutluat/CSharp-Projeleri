@@ -1,0 +1,12 @@
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Foreach - 5 hafta\Foreach - 5 hafta\bin\Debug\Foreach - 5 hafta.exe.config
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Foreach - 5 hafta\Foreach - 5 hafta\bin\Debug\Foreach - 5 hafta.exe
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Foreach - 5 hafta\Foreach - 5 hafta\bin\Debug\Foreach - 5 hafta.pdb
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Foreach - 5 hafta\Foreach - 5 hafta\obj\Debug\Foreach - 5 hafta.csprojResolveAssemblyReference.cache
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Foreach - 5 hafta\Foreach - 5 hafta\obj\Debug\Foreach___5_hafta.Form1.resources
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Foreach - 5 hafta\Foreach - 5 hafta\obj\Debug\Foreach___5_hafta.Properties.Resources.resources
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Foreach - 5 hafta\Foreach - 5 hafta\obj\Debug\Foreach - 5 hafta.csproj.GenerateResource.Cache
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Foreach - 5 hafta\Foreach - 5 hafta\obj\Debug\Foreach - 5 hafta.exe
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Foreach - 5 hafta\Foreach - 5 hafta\obj\Debug\Foreach - 5 hafta.pdb
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Foreach (Topluca bişey  yapma) - 5 hafta\Foreach - 5 hafta\bin\Debug\Foreach - 5 hafta.exe.config
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Foreach (Topluca bişey  yapma) - 5 hafta\Foreach - 5 hafta\obj\Debug\Foreach - 5 hafta.exe
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Foreach (Topluca bişey  yapma) - 5 hafta\Foreach - 5 hafta\obj\Debug\Foreach - 5 hafta.pdb

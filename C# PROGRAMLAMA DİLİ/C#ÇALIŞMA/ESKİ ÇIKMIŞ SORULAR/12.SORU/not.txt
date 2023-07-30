@@ -1,0 +1,4 @@
+sağ click olayı
+
+1- contextmenustrip ekliyorsun ordan sağ tıklayınca çıkacak butonları ayarlıyorsun
+2- hangi eşyada sağ tıklayınca açılmasını istiyorsan onun properitiesinden contextmenustrip yerinden ilişkilendiriyorsun

@@ -1,0 +1,26 @@
+c:\users\mehmet\Desktop\2.UYGULAMA\2.UYGULAMA\bin\Debug\2.UYGULAMA.exe.config
+c:\users\mehmet\Desktop\2.UYGULAMA\2.UYGULAMA\bin\Debug\2.UYGULAMA.exe
+c:\users\mehmet\Desktop\2.UYGULAMA\2.UYGULAMA\bin\Debug\2.UYGULAMA.pdb
+c:\users\mehmet\Desktop\2.UYGULAMA\2.UYGULAMA\obj\Debug\_2.UYGULAMA.Form1.resources
+c:\users\mehmet\Desktop\2.UYGULAMA\2.UYGULAMA\obj\Debug\_2.UYGULAMA.Properties.Resources.resources
+c:\users\mehmet\Desktop\2.UYGULAMA\2.UYGULAMA\obj\Debug\2.UYGULAMA.csproj.GenerateResource.Cache
+c:\users\mehmet\Desktop\2.UYGULAMA\2.UYGULAMA\obj\Debug\2.UYGULAMA.exe
+c:\users\mehmet\Desktop\2.UYGULAMA\2.UYGULAMA\obj\Debug\2.UYGULAMA.pdb
+C:\Users\MEHMET\Desktop\uygulama 5\2.UYGULAMA\2.UYGULAMA\bin\Debug\2.UYGULAMA.exe.config
+C:\Users\MEHMET\Desktop\uygulama 5\2.UYGULAMA\2.UYGULAMA\obj\Debug\2.UYGULAMA.exe
+C:\Users\MEHMET\Desktop\uygulama 5\2.UYGULAMA\2.UYGULAMA\obj\Debug\2.UYGULAMA.pdb
+C:\Users\MEHMET\Desktop\uygulama 5\2.UYGULAMA\2.UYGULAMA\bin\Debug\2.UYGULAMA.exe
+C:\Users\MEHMET\Desktop\uygulama 5\2.UYGULAMA\2.UYGULAMA\bin\Debug\2.UYGULAMA.pdb
+C:\Users\MEHMET\Desktop\uygulama 5\2.UYGULAMA\2.UYGULAMA\obj\Debug\2.UYGULAMA.csprojResolveAssemblyReference.cache
+C:\Users\MEHMET\Desktop\uygulama 5\2.UYGULAMA\2.UYGULAMA\obj\Debug\_2.UYGULAMA.Form1.resources
+C:\Users\MEHMET\Desktop\uygulama 5\2.UYGULAMA\2.UYGULAMA\obj\Debug\_2.UYGULAMA.Properties.Resources.resources
+C:\Users\MEHMET\Desktop\uygulama 5\2.UYGULAMA\2.UYGULAMA\obj\Debug\2.UYGULAMA.csproj.GenerateResource.Cache
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\uygulama 5\2.UYGULAMA\2.UYGULAMA\bin\Debug\2.UYGULAMA.exe.config
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\uygulama 5\2.UYGULAMA\2.UYGULAMA\obj\Debug\2.UYGULAMA.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\uygulama 5\2.UYGULAMA\2.UYGULAMA\obj\Debug\2.UYGULAMA.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\uygulama 5\2.UYGULAMA\2.UYGULAMA\bin\Debug\2.UYGULAMA.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\uygulama 5\2.UYGULAMA\2.UYGULAMA\bin\Debug\2.UYGULAMA.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\uygulama 5\2.UYGULAMA\2.UYGULAMA\obj\Debug\2.UYGULAMA.csprojResolveAssemblyReference.cache
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\uygulama 5\2.UYGULAMA\2.UYGULAMA\obj\Debug\_2.UYGULAMA.Form1.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\uygulama 5\2.UYGULAMA\2.UYGULAMA\obj\Debug\_2.UYGULAMA.Properties.Resources.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\2.DÖNEM\UYGULAMALAR\uygulama 5\2.UYGULAMA\2.UYGULAMA\obj\Debug\2.UYGULAMA.csproj.GenerateResource.Cache

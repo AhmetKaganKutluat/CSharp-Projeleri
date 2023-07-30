@@ -1,0 +1,10 @@
+c:\users\mehmet\Desktop\LOCAL_DATABASE_İŞLEMLERİ\LOCAL_DATABASE_İŞLEMLERİ\bin\Debug\LOCAL_DATABASE_İŞLEMLERİ.exe.config
+c:\users\mehmet\Desktop\LOCAL_DATABASE_İŞLEMLERİ\LOCAL_DATABASE_İŞLEMLERİ\bin\Debug\bilgiler.sdf
+c:\users\mehmet\Desktop\LOCAL_DATABASE_İŞLEMLERİ\LOCAL_DATABASE_İŞLEMLERİ\bin\Debug\LOCAL_DATABASE_İŞLEMLERİ.exe
+c:\users\mehmet\Desktop\LOCAL_DATABASE_İŞLEMLERİ\LOCAL_DATABASE_İŞLEMLERİ\bin\Debug\LOCAL_DATABASE_İŞLEMLERİ.pdb
+c:\users\mehmet\Desktop\LOCAL_DATABASE_İŞLEMLERİ\LOCAL_DATABASE_İŞLEMLERİ\obj\Debug\LOCAL_DATABASE_İŞLEMLERİ.csprojResolveAssemblyReference.cache
+c:\users\mehmet\Desktop\LOCAL_DATABASE_İŞLEMLERİ\LOCAL_DATABASE_İŞLEMLERİ\obj\Debug\LOCAL_DATABASE_İŞLEMLERİ.Form1.resources
+c:\users\mehmet\Desktop\LOCAL_DATABASE_İŞLEMLERİ\LOCAL_DATABASE_İŞLEMLERİ\obj\Debug\LOCAL_DATABASE_İŞLEMLERİ.Properties.Resources.resources
+c:\users\mehmet\Desktop\LOCAL_DATABASE_İŞLEMLERİ\LOCAL_DATABASE_İŞLEMLERİ\obj\Debug\LOCAL_DATABASE_İŞLEMLERİ.csproj.GenerateResource.Cache
+c:\users\mehmet\Desktop\LOCAL_DATABASE_İŞLEMLERİ\LOCAL_DATABASE_İŞLEMLERİ\obj\Debug\LOCAL_DATABASE_İŞLEMLERİ.exe
+c:\users\mehmet\Desktop\LOCAL_DATABASE_İŞLEMLERİ\LOCAL_DATABASE_İŞLEMLERİ\obj\Debug\LOCAL_DATABASE_İŞLEMLERİ.pdb

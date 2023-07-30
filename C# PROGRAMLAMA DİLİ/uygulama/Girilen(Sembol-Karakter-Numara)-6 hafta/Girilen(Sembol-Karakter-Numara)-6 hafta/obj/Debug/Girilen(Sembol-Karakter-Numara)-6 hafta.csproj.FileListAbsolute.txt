@@ -1,0 +1,9 @@
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Girilen(Sembol-Karakter-Numara)-6 hafta\Girilen(Sembol-Karakter-Numara)-6 hafta\bin\Debug\Girilen(Sembol-Karakter-Numara)-6 hafta.exe.config
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\5.ve 6. hafta uygulama\Girilen(Sembol-Karakter-Numara)-6 hafta\Girilen(Sembol-Karakter-Numara)-6 hafta\bin\Debug\Girilen(Sembol-Karakter-Numara)-6 hafta.exe.config
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\5.ve 6. hafta uygulama\Girilen(Sembol-Karakter-Numara)-6 hafta\Girilen(Sembol-Karakter-Numara)-6 hafta\bin\Debug\Girilen(Sembol-Karakter-Numara)-6 hafta.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\5.ve 6. hafta uygulama\Girilen(Sembol-Karakter-Numara)-6 hafta\Girilen(Sembol-Karakter-Numara)-6 hafta\bin\Debug\Girilen(Sembol-Karakter-Numara)-6 hafta.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\5.ve 6. hafta uygulama\Girilen(Sembol-Karakter-Numara)-6 hafta\Girilen(Sembol-Karakter-Numara)-6 hafta\obj\Debug\Girilen(Sembol-Karakter-Numara)-6 hafta.csprojResolveAssemblyReference.cache
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\5.ve 6. hafta uygulama\Girilen(Sembol-Karakter-Numara)-6 hafta\Girilen(Sembol-Karakter-Numara)-6 hafta\obj\Debug\Girilen_Sembol_Karakter_Numara__6_hafta.Properties.Resources.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\5.ve 6. hafta uygulama\Girilen(Sembol-Karakter-Numara)-6 hafta\Girilen(Sembol-Karakter-Numara)-6 hafta\obj\Debug\Girilen(Sembol-Karakter-Numara)-6 hafta.csproj.GenerateResource.Cache
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\5.ve 6. hafta uygulama\Girilen(Sembol-Karakter-Numara)-6 hafta\Girilen(Sembol-Karakter-Numara)-6 hafta\obj\Debug\Girilen(Sembol-Karakter-Numara)-6 hafta.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\5.ve 6. hafta uygulama\Girilen(Sembol-Karakter-Numara)-6 hafta\Girilen(Sembol-Karakter-Numara)-6 hafta\obj\Debug\Girilen(Sembol-Karakter-Numara)-6 hafta.pdb

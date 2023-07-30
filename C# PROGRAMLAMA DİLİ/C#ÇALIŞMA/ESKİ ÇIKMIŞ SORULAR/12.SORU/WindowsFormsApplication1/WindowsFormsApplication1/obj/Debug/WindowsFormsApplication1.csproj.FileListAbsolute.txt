@@ -1,0 +1,16 @@
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\12.Soru\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\12.Soru\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\12.Soru\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\12.Soru\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\12.Soru\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\12.Soru\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\12.Soru\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\12.Soru\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\12.Soru\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\12.Soru\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\C#ÇALIŞMA\ESKİ ÇIKMIŞ SORULAR\12.SORU\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\C#ÇALIŞMA\ESKİ ÇIKMIŞ SORULAR\12.SORU\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\C#ÇALIŞMA\ESKİ ÇIKMIŞ SORULAR\12.SORU\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\1.DÖNEM\UYGULAMA\C#ÇALIŞMA\ESKİ ÇIKMIŞ SORULAR\12.SORU\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\1.DÖNEM\UYGULAMA\C#ÇALIŞMA\ESKİ ÇIKMIŞ SORULAR\12.SORU\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\1.DÖNEM\UYGULAMA\C#ÇALIŞMA\ESKİ ÇIKMIŞ SORULAR\12.SORU\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

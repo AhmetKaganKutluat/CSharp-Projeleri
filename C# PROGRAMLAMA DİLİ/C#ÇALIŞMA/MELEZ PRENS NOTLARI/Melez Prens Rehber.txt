@@ -1,0 +1,51 @@
+SORGULU BİRŞEYLER YAPMAK;ÇIKIŞ ÖRNEĞİ;
+İLETİŞİM KANALI İLE ÇIKIŞ YAPMAK;
+YENİ FORMA GEÇİŞ.ÖNCEDEN FORMU AÇMAN LAZIM
+switch case örneği;
+HAFTANIN GÜNLERİNİ BULAN PROGRAM.
+EĞER CHAR DEĞİŞKENİNDE SWTİCH CASE KURUCAKSAN BU ŞEKİL.
+STRUCT YAPISI KULLANMA.
+/EĞER BÜYÜK VEYA KÜÇÜK HARF DIŞINDA VE SİLME DIŞINDA BİR TUŞA BASILIRSA YOK SAY DEMEK.
+//sadece sayı yazılabilir ve silme tuşu onun dışındaki tüm herşeyi yoksay demek
+//PROCEDURE OLUŞTURMAK;
+//FUNCTİON ;
+//entere basınca textbox9 a imleci focuslatmış
+/FUCTİONLAR GERİ DÖNÜŞLÜ FAKTÖRİYEL ALAN PROGRAM.
+//FUNCTİONUN BENZERİ BU SEFER SAYI DÖNDÜRÜYOR.
+try catch finally
+//LİSTBOXA ÇİFT SAYILARI YAZDIRDIK.BASİT ŞEKİLDE,FOR FÖNGÜSÜYLE.
+//TEXTCHANGED E YAZILAN BU ÖZELLİK BASAMAK SAYISINA GÖRE ANLIK OLARAK TİMER GİBİ UYARI VERİR.
+//inputbox yapımı
+//PROGRESSBAR EKLEME (YÜKLEME EKRANI); 
+//dosyanın varlık kontrolü ve dosyaya yazma
+
+
+
+
+******************************************************************************************************************************************************
+
+
+
+
+KÜÇüK KISA KULLANIŞLI OLANLAR
+
+
+
+
+this.Text = "Bugün Günlerden Çarşamba";        // formun ismini değiştimek içn kullanılır.Formun loadına yazılır.(forma çift tıkladığın yer)
+ metin1 = "selam kaçmaz";                       // metin1'in içine bir değer atadık salam kaçmaz diye . (string değişkene değer atama)
+sayi1 = 5;                                      //sayısal değişkene değer atama.
+label1.Text = "sonuc " + sonuc.ToString();      //sayısal değeri labele yazarken convert etme;
+ textBox1.Clear(); textBox2.Clear();            //textbox temizleme.
+ textBox1.Focus();                              //imleci textbox 1 e focusluyor.
+ Application.Exit();                            // çıkış işlemi.//butona yazılır.
+Environment.Exit(1);                            //çıkış işlemi.//butona yazılır. 0 veya 1 değer ister.
+MessageBox.Show("ÇIKIŞ GERÇEKLEŞMEDİ !");       // ekrana mesaj verme;
+ listBox1.Items.Add("TANER YILDIRIM");          // LİSTBOXA EKLEMEK.
+comboBox1.Items.Add("FENERBAHÇE");              //COMBOBOXA EKLEMEK.
+ comboBox1.Sorted = true;                       // COMBOBOXU A DAN Z YE SIRALAR.
+ textBox1.BackColor = Color.Yellow;             //textbox 1 in rengini değiştirme.
+ogr.ad = textBox1.Text.Trim().ToUpper();        //ogr structuna trimi alınmış ve büyütülmüş textbox texti aktardık.
+MessageBox.Show("SEÇİLEN ELEMAN : " + listBox1.SelectedItem);   //listboxdeki seçili elemanı gösterir.//butona yazılabilir.
+double vade = Convert.ToDouble(comboBox1.SelectedItem);         //comboboxtaki seçili şeyi değişkene alma.
+sayi2 = Convert.ToInt32(textBox2.Text);//sayısal değere textboxtan veri atarken convert etme.

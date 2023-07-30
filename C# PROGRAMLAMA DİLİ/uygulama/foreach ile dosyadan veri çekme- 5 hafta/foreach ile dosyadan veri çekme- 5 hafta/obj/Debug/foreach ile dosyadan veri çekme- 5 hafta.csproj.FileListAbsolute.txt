@@ -1,0 +1,16 @@
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\foreach ile dosyadan veri çekme- 5 hafta\foreach ile dosyadan veri çekme- 5 hafta\bin\Debug\foreach ile dosyadan veri çekme- 5 hafta.exe.config
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\foreach ile dosyadan veri çekme- 5 hafta\foreach ile dosyadan veri çekme- 5 hafta\bin\Debug\foreach ile dosyadan veri çekme- 5 hafta.exe
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\foreach ile dosyadan veri çekme- 5 hafta\foreach ile dosyadan veri çekme- 5 hafta\bin\Debug\foreach ile dosyadan veri çekme- 5 hafta.pdb
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\foreach ile dosyadan veri çekme- 5 hafta\foreach ile dosyadan veri çekme- 5 hafta\obj\Debug\foreach_ile_dosyadan_veri_çekme__5_hafta.Form1.resources
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\foreach ile dosyadan veri çekme- 5 hafta\foreach ile dosyadan veri çekme- 5 hafta\obj\Debug\foreach_ile_dosyadan_veri_çekme__5_hafta.Properties.Resources.resources
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\foreach ile dosyadan veri çekme- 5 hafta\foreach ile dosyadan veri çekme- 5 hafta\obj\Debug\foreach ile dosyadan veri çekme- 5 hafta.csproj.GenerateResource.Cache
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\foreach ile dosyadan veri çekme- 5 hafta\foreach ile dosyadan veri çekme- 5 hafta\obj\Debug\foreach ile dosyadan veri çekme- 5 hafta.exe
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\foreach ile dosyadan veri çekme- 5 hafta\foreach ile dosyadan veri çekme- 5 hafta\obj\Debug\foreach ile dosyadan veri çekme- 5 hafta.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\5.ve 6. hafta uygulama\foreach ile dosyadan veri çekme- 5 hafta\foreach ile dosyadan veri çekme- 5 hafta\bin\Debug\foreach ile dosyadan veri çekme- 5 hafta.exe.config
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\5.ve 6. hafta uygulama\foreach ile dosyadan veri çekme- 5 hafta\foreach ile dosyadan veri çekme- 5 hafta\obj\Debug\foreach ile dosyadan veri çekme- 5 hafta.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\5.ve 6. hafta uygulama\foreach ile dosyadan veri çekme- 5 hafta\foreach ile dosyadan veri çekme- 5 hafta\obj\Debug\foreach ile dosyadan veri çekme- 5 hafta.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\5.ve 6. hafta uygulama\foreach ile dosyadan veri çekme- 5 hafta\foreach ile dosyadan veri çekme- 5 hafta\bin\Debug\foreach ile dosyadan veri çekme- 5 hafta.exe
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\5.ve 6. hafta uygulama\foreach ile dosyadan veri çekme- 5 hafta\foreach ile dosyadan veri çekme- 5 hafta\bin\Debug\foreach ile dosyadan veri çekme- 5 hafta.pdb
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\5.ve 6. hafta uygulama\foreach ile dosyadan veri çekme- 5 hafta\foreach ile dosyadan veri çekme- 5 hafta\obj\Debug\foreach_ile_dosyadan_veri_çekme__5_hafta.Form1.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\5.ve 6. hafta uygulama\foreach ile dosyadan veri çekme- 5 hafta\foreach ile dosyadan veri çekme- 5 hafta\obj\Debug\foreach_ile_dosyadan_veri_çekme__5_hafta.Properties.Resources.resources
+C:\Users\MEHMET\Desktop\NESNE PROGRAM\UYGULAMA\5.ve 6. hafta uygulama\foreach ile dosyadan veri çekme- 5 hafta\foreach ile dosyadan veri çekme- 5 hafta\obj\Debug\foreach ile dosyadan veri çekme- 5 hafta.csproj.GenerateResource.Cache

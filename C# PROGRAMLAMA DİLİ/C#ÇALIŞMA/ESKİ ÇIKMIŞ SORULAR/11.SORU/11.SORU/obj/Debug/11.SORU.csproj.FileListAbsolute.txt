@@ -1,0 +1,21 @@
+c:\users\mehmet\Desktop\11.SORU\11.SORU\bin\Debug\11.SORU.exe.config
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\11.SORU - Kopya\11.SORU\bin\Debug\11.SORU.exe.config
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\11.SORU - Kopya\11.SORU\bin\Debug\11.SORU.exe
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\11.SORU - Kopya\11.SORU\bin\Debug\11.SORU.pdb
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\11.SORU - Kopya\11.SORU\obj\Debug\11.SORU.csprojResolveAssemblyReference.cache
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\11.SORU - Kopya\11.SORU\obj\Debug\_11.SORU.Form1.resources
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\11.SORU - Kopya\11.SORU\obj\Debug\_11.SORU.Form2.resources
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\11.SORU - Kopya\11.SORU\obj\Debug\_11.SORU.Properties.Resources.resources
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\11.SORU - Kopya\11.SORU\obj\Debug\11.SORU.csproj.GenerateResource.Cache
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\11.SORU - Kopya\11.SORU\obj\Debug\11.SORU.exe
+C:\Users\Ahmet Kağan\Desktop\NTP İdman\11.SORU - Kopya\11.SORU\obj\Debug\11.SORU.pdb
+C:\Users\MEHMET\Desktop\AHMET\11.SORU\11.SORU\bin\Debug\11.SORU.exe.config
+C:\Users\MEHMET\Desktop\AHMET\11.SORU\11.SORU\obj\Debug\11.SORU.exe
+C:\Users\MEHMET\Desktop\AHMET\11.SORU\11.SORU\obj\Debug\11.SORU.pdb
+C:\Users\MEHMET\Desktop\AHMET\11.SORU\11.SORU\bin\Debug\11.SORU.exe
+C:\Users\MEHMET\Desktop\AHMET\11.SORU\11.SORU\bin\Debug\11.SORU.pdb
+C:\Users\MEHMET\Desktop\AHMET\11.SORU\11.SORU\obj\Debug\11.SORU.csprojResolveAssemblyReference.cache
+C:\Users\MEHMET\Desktop\AHMET\11.SORU\11.SORU\obj\Debug\_11.SORU.Form1.resources
+C:\Users\MEHMET\Desktop\AHMET\11.SORU\11.SORU\obj\Debug\_11.SORU.Form2.resources
+C:\Users\MEHMET\Desktop\AHMET\11.SORU\11.SORU\obj\Debug\_11.SORU.Properties.Resources.resources
+C:\Users\MEHMET\Desktop\AHMET\11.SORU\11.SORU\obj\Debug\11.SORU.csproj.GenerateResource.Cache

@@ -1,0 +1,9 @@
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Try-Catch Karşılaştırma- 5 hafta\Try-Catch Karşılaştırma- 5 hafta\bin\Debug\Try-Catch Karşılaştırma- 5 hafta.exe.config
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Try-Catch Karşılaştırma- 5 hafta\Try-Catch Karşılaştırma- 5 hafta\bin\Debug\Try-Catch Karşılaştırma- 5 hafta.exe
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Try-Catch Karşılaştırma- 5 hafta\Try-Catch Karşılaştırma- 5 hafta\bin\Debug\Try-Catch Karşılaştırma- 5 hafta.pdb
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Try-Catch Karşılaştırma- 5 hafta\Try-Catch Karşılaştırma- 5 hafta\obj\Debug\Try-Catch Karşılaştırma- 5 hafta.csprojResolveAssemblyReference.cache
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Try-Catch Karşılaştırma- 5 hafta\Try-Catch Karşılaştırma- 5 hafta\obj\Debug\Try_Catch_Karşılaştırma__5_hafta.Form1.resources
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Try-Catch Karşılaştırma- 5 hafta\Try-Catch Karşılaştırma- 5 hafta\obj\Debug\Try_Catch_Karşılaştırma__5_hafta.Properties.Resources.resources
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Try-Catch Karşılaştırma- 5 hafta\Try-Catch Karşılaştırma- 5 hafta\obj\Debug\Try-Catch Karşılaştırma- 5 hafta.csproj.GenerateResource.Cache
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Try-Catch Karşılaştırma- 5 hafta\Try-Catch Karşılaştırma- 5 hafta\obj\Debug\Try-Catch Karşılaştırma- 5 hafta.exe
+C:\Users\Fatih İbrahim KuNuR\Desktop\Visual Studio 2012\Try-Catch Karşılaştırma- 5 hafta\Try-Catch Karşılaştırma- 5 hafta\obj\Debug\Try-Catch Karşılaştırma- 5 hafta.pdb

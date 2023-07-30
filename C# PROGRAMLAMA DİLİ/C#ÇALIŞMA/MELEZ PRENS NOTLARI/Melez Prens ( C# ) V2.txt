@@ -1,0 +1,1095 @@
+public static Boolean acik;  //genel değişken tanımlama
+
+########################################################################################################################################################
+//entere basınca istediğin yere focuslatmak için
+
+private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyValue == 13)
+                textBox2.Focus();
+        }
+
+
+########################################################################################################################################################
+
+//texte sadece harf ve silme tuşu girilme olayı 
+
+ private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar > 64 || e.KeyChar < 90 && e.KeyChar == 8)
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+########################################################################################################################################################
+//texte sadece sayı ve silme tuşu girilme olayı
+
+private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar >= 48 && e.KeyChar <= 57 || e.KeyChar == 8)
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+
+        }
+########################################################################################################################################################
+// checboxların sadece birinin seçilme özelliği - checbox checked
+
+private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true) // 1 seçiliyse 2 yi false et demek.
+
+            {
+                checkBox2.Checked = false;
+            }
+        }
+########################################################################################################################################################
+
+
+
+
+
+1.Soru
+
+//try catch finnaly
+//faktötiyel
+
+
+ private void button1_Click(object sender, EventArgs e)
+        {
+           
+            try
+            {
+                int sayi;
+                sayi = Convert.ToInt16(textBox1.Text);
+                if (sayi >= 1 && sayi <= 17)
+                {
+                    int sonuc = 1;
+                    for (int i = 1; i <= sayi; i++)
+                    {
+                        sonuc = sonuc * i;
+                    }
+                    MessageBox.Show(sonuc.ToString());
+                }
+                else 
+                {
+
+                    MessageBox.Show("geçersiz sayı");
+                }
+               
+               
+            }
+            catch
+            {
+                MessageBox.Show("farklı karakter tuşlandı");
+            }
+            finally
+            {
+                textBox1.Clear();
+            }
+        }
+
+
+
+########################################################################################################################################################
+2.Soru
+
+//inputbox
+// toplam ve ortalama
+//inputbox for ile çoklu sayı isteme
+
+
+
+// inputbox yapımı 
+//önce sağ taraftaki solitiondan references kısmına sağ tıklayıp visual basicin tikini aktif ediyoruz.
+//en üst tarafa  -  using Microsoft.VisualBasic;  - olarak tanımlıyoruz.
+
+
+ private void button1_Click(object sender, EventArgs e)
+        {
+            int toplam = 0; double ortalama = 0;
+            int i;
+            for (i = 1; i <= 5; i++)
+            {
+                toplam += Convert.ToInt32(Interaction.InputBox(i + "  .  SAYIYI GİRİNİZ ?", "SAYI GİRİŞİ", "BURAY YAZINIZ"));
+
+            }
+            ortalama = toplam / 5;
+            MessageBox.Show("SAYILARIN TOPLAMI :" + toplam + "\nSAYILARIN ORTALAMASI : " + ortalama);
+
+
+
+        }
+
+
+
+
+
+########################################################################################################################################################
+3.Soru
+
+// liste kutusu   // listbox
+// 2 liste kutusundan birbirine atma
+//liste kutusu eleman silme //liste kutusu silme   //listbox silme
+
+
+
+
+
+
+
+private void Form1_Load(object sender, EventArgs e)
+        {
+
+            for (int i = 0; i <= 9; i++)
+            {
+                i = i + 1;
+                listBox1.Items.Add(i);
+            }
+
+            
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
+           int  secim = Convert.ToInt16 (MessageBox.Show(listBox1.SelectedItem + "  karşıya yüklemek istermisiniz", "yükleme ", MessageBoxButtons.YesNo ));
+            if (secim == 6)
+            {
+                listBox2.Items.Add(listBox1.SelectedItem); //seçili itemi listbox2 ye ekliyor
+                listBox1.Items.Remove(listBox1.SelectedItem);//seçili itemi siliyor.
+            
+            }
+             
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (listBox1.Items.Count == 0)  // listbox 1 eleman sayısı 0 ise.
+            {
+                button1.Enabled = false;
+            }
+        }
+
+
+
+########################################################################################################################################################
+4.Soru
+//mod alma
+//tam bölünme kontrol
+
+
+
+
+private void button1_Click(object sender, EventArgs e)
+        {
+
+            try
+            {
+                int sayi;
+
+                sayi = Convert.ToInt16(textBox1.Text);
+                if (sayi % 6 == 0)
+                {
+                    MessageBox.Show("sayı tam bölünür");
+                }
+                else
+                {
+                    MessageBox.Show("tam bölünmez");
+                }
+            }
+            catch(Exception)
+            {
+                MessageBox.Show("hatalı tuslama lütfen sayı giriniz");
+            }
+            finally
+            { 
+            textBox1.Clear ();
+            }
+            
+
+        }
+
+
+
+########################################################################################################################################################
+5.Soru
+//listbox tümünü ekleme // liste kutusu tüm elemanları ekleme
+//eleman silme 
+//sorgulu ekleme
+
+
+
+
+
+
+
+
+ private void button1_Click(object sender, EventArgs e)
+        {
+            int secim = Convert.ToInt16 (MessageBox.Show(listBox1.SelectedItem + "  sağ tarafa eklensin mi ? ","EKLEME",MessageBoxButtons.YesNo ));
+            if (secim == 6)
+            {
+                listBox2.Items.Add(listBox1.SelectedItem );
+                listBox1.Items.Remove(listBox1.SelectedItem) ;
+
+            }
+           
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            listBox1.Items.Add("FENERBAHÇE");
+            listBox1.Items.Add("GALATASARAY");
+            listBox1.Items.Add("BEŞİKTAŞ");
+            listBox1.Items.Add("TRABZONSPOR");
+            listBox1.Items.Add("BURSA");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+            int  sec = Convert.ToInt16(MessageBox.Show(" tümü eklensin mi ? ", "EKLEME", MessageBoxButtons.YesNo));
+             if (sec == 6)
+             {
+                 for (int i = 0; i < listBox1.Items.Count; i++)
+                 {
+
+                     listBox2.Items.Add(listBox1.Items[i].ToString());
+
+                 } //for parantezi
+                 listBox1.Items.Clear();
+             }
+             
+        }
+
+
+
+
+
+########################################################################################################################################################
+6.Soru
+//switch case örneği
+
+1.Yöntem
+
+private void button1_Click(object sender, EventArgs e)
+        {
+            int secim = Convert.ToInt16 (textBox1.Text);
+            if (secim < 1  || secim > 12)
+            {
+                MessageBox.Show("DEĞER ARALIĞI YANLIŞ GİRDİNİZ");
+                textBox1.Clear();
+            }
+            else
+            {
+                switch (secim)
+                {
+                    case 1: MessageBox.Show("OCAK \nJANUARY"); textBox1.Clear(); break;
+                    case 2: MessageBox.Show("ŞUBAT \nFEBRUARY"); textBox1.Clear(); break;
+                    case 3: MessageBox.Show("MART \nMARCH"); textBox1.Clear(); break;
+                    case 4: MessageBox.Show("NİSAN \nAPRİL"); textBox1.Clear(); break;
+                    case 5: MessageBox.Show("MAYIS \nMAY"); textBox1.Clear(); break;
+                    case 6: MessageBox.Show("HAZİRAN \nJUNE"); textBox1.Clear(); break;
+                    case 7: MessageBox.Show("TEMMUZ \nJULY"); textBox1.Clear(); break;
+                    case 8: MessageBox.Show("AĞUSTOS \nAUGUST"); textBox1.Clear(); break;
+                    case 9: MessageBox.Show("EYLÜL \nSEPTEMBER"); textBox1.Clear(); break;
+                    case 10: MessageBox.Show("EKİM \nOCTOBER"); textBox1.Clear(); break;
+                    case 11: MessageBox.Show("KASIM \nNOVEMBER"); textBox1.Clear(); break;
+                    case 12: MessageBox.Show("ARALIK \nDECEMBER"); textBox1.Clear(); break;
+                    
+                            
+                }
+
+
+
+2.Yöntem 
+
+
+private void button1_Click(object sender, EventArgs e)
+        {
+            int secim = Convert.ToInt16 (textBox1.Text);
+         
+            {
+                switch (secim)
+                {
+                    case 1: MessageBox.Show("OCAK \nJANUARY"); textBox1.Clear(); break;
+                    case 2: MessageBox.Show("ŞUBAT \nFEBRUARY"); textBox1.Clear(); break;
+                    case 3: MessageBox.Show("MART \nMARCH"); textBox1.Clear(); break;
+                    case 4: MessageBox.Show("NİSAN \nAPRİL"); textBox1.Clear(); break;
+                    case 5: MessageBox.Show("MAYIS \nMAY"); textBox1.Clear(); break;
+                    case 6: MessageBox.Show("HAZİRAN \nJUNE"); textBox1.Clear(); break;
+                    case 7: MessageBox.Show("TEMMUZ \nJULY"); textBox1.Clear(); break;
+                    case 8: MessageBox.Show("AĞUSTOS \nAUGUST"); textBox1.Clear(); break;
+                    case 9: MessageBox.Show("EYLÜL \nSEPTEMBER"); textBox1.Clear(); break;
+                    case 10: MessageBox.Show("EKİM \nOCTOBER"); textBox1.Clear(); break;
+                    case 11: MessageBox.Show("KASIM \nNOVEMBER"); textBox1.Clear(); break;
+                    case 12: MessageBox.Show("ARALIK \nDECEMBER"); textBox1.Clear(); break;
+                    default: MessageBox.Show("1 ve 12 arasında bir sayı girin"); textBox1.Clear(); break;
+                            
+                }
+
+            }    
+               
+        }
+
+
+
+
+########################################################################################################################################################
+7.Soru
+// girilen metindeki tüm harfleri tek tek mesaj kutusuna verir
+// metin.length özelliği 
+
+private void button1_Click(object sender, EventArgs e)
+        {
+            string  metin;
+            metin = textBox1.Text;
+            if (metin.Length <= 10)
+            {
+                for (int i = 0; i < metin.Length; i++)
+                {
+                    MessageBox.Show(metin[i].ToString());
+                }
+            }
+            else
+            {
+                MessageBox.Show("10 KARAKTER DIŞINDA BİR METİN"); textBox1.Clear();
+            }
+        }
+
+
+
+########################################################################################################################################################
+8.Soru
+// struct yapısı
+//harf büyütme - büyük yazma 
+
+
+public struct bilgiler
+        {
+            public string adı;
+            public string soyadı;
+            public string memleket;
+            public string adres;
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            bilgiler bil = new bilgiler();
+            bil.adı = textBox1.Text.ToUpper ();
+            bil.soyadı = textBox2.Text.ToUpper();
+            bil.memleket = textBox3.Text.ToUpper();
+            bil.adres = textBox4.Text.ToUpper();
+            MessageBox.Show("ADI "+bil.adı +" SOYADI "+bil.soyadı +" MEMLEKETİ  "+bil.memleket +" ADRESİ "+bil.adres,"BİLGİLER");
+            
+        }
+
+
+########################################################################################################################################################
+9.Soru
+// parabol sorusu // 2 bilinmeyenli denklem sorusu 
+
+
+
+
+
+private void button1_Click(object sender, EventArgs e)
+        {
+            int a, b, c, delta,tekkök;
+            double x1, x2;
+            string parabol,sonuc;
+            
+            a  = Convert.ToInt16(textBox1.Text);
+            b  = Convert.ToInt16(textBox2.Text);
+            c  = Convert.ToInt16(textBox3.Text);
+            
+            delta = (b*b) - (4*a*c); // b nin karesini al math kütüphanesiyle
+            
+            if (a < 0)
+            {
+                parabol = ("AŞAĞI YÖNLÜ PARABOL");
+            }
+            else
+            {
+                parabol = ("YUKARI YÖNLÜ PARABOL");
+            }
+
+            if (delta < 0)
+            {
+                sonuc = ("FONKSİYONUN REEL KÖKÜ YOKTUR");
+                MessageBox.Show("A NIN DEĞERİ " + parabol + " DELTANIN SONUCU " + sonuc);
+            }
+            else if (delta == 0)
+            {
+                tekkök = (-1 * b) / (2 * a);
+                sonuc = ("TEK KÖK VARDIR VE DEĞERİ" + tekkök);
+                MessageBox.Show("A NIN DEĞERİ " + parabol + " DELTANIN SONUCU " + sonuc);
+            }
+            else if (delta >0)
+            {
+                x1 =   ((-1 * b) + Math.Sqrt(delta)) / (2 * a);
+                x2 =  ((-1 * b) - Math.Sqrt(delta)) / (2 * a);
+              // x1 ve x2 yuvarla 2 hane göster
+                sonuc= ("ÇİFTKÖK VARDIR "+"X1 "+x1+" x2 "+x2  );
+                MessageBox.Show("A NIN DEĞERİ " + parabol + " DELTANIN SONUCU " + sonuc);
+            }
+        }
+
+
+
+########################################################################################################################################################
+10.Soru
+// procedure
+//faktöriyel return lu procedure ile 
+//function 
+
+####################################################################
+//procedure
+
+
+//EN ÜST YERLERE YAZIYORSUN BUTONLARIN USTUNE
+ private void temizle() 
+    {
+        textBox1.Clear();
+        textBox2.Clear();
+        textBox3.Text = "";
+        MessageBox.Show("Tüm text alanları temizledi ...");
+    }
+
+
+//PROGRAMIN İÇİNDE ÇAĞIRMAK İSTEDİĞİN YERDE;
+temizle(); 
+
+
+
+####################################################################
+
+//faktöriyel return lu procedure ile 
+
+
+ private static int faktoryel(int sayi)
+        {
+            int fak = 1;
+            for (int i = 1; i <= sayi; i++)
+            {
+                fak = fak * i;
+            }
+            return fak;
+        }
+
+
+//PROGRAMIN İÇİNDE ÇAĞIRMAK İSTEDİĞİN YERDE;
+
+
+
+MessageBox.Show(faktoryel (Convert.ToInt16(textBox1.Text)).ToString());//text yerine değişkende olur konvert etmen gerekmezse etmezsin.
+
+
+####################################################################
+//function 
+
+//ÜSTE YAZIYOSUN PROCEDURE İLE AYNI ŞEKİLDE;
+
+ private void yazdir(string adi,string soyadi,string memleket )
+        {
+            MessageBox.Show("müsterinin adı : " + adi + "" + soyadi + "\n" + memleket);
+        }
+
+
+//programın içinde
+string adi      = textBox4.Text;
+string soyadi   = textBox5.Text;
+string memleket = textBox6.Text;
+
+yazdir(adi,soyadi,memleket);
+
+
+
+
+########################################################################################################################################################
+11.Soru
+//öğrenci not hesaplama kapsamlı programı 
+//harf notu 
+//metnin ortasından başlatma sonundan başlatma vs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.FORM;
+
+
+
+
+private void button1_Click_1(object sender, EventArgs e)
+        {
+            string kullanıcı;
+            string sifre;
+
+
+            kullanıcı = textBox1.Text.Trim();
+            sifre = textBox2.Text.Trim();
+
+
+            textBox3.Text = kullanıcı.Substring(0, 3); //0 ıncı harfinden yani başından başla 3 harf al demek
+            textBox4.Text = sifre.Substring(textBox2.Text.Length - 3); //sonundan 3 harf al demek.
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Form2 yeni = new Form2(); //2. formu açıyoruz
+            yeni.ShowDialog();  //form diolog olursa formu kapatmadan arkadaya geçmeye izin vermiyor.
+        }
+
+
+
+
+
+2.FORM;
+
+
+
+
+
+
+
+
+private void temizle()
+        {
+            comboBox1.SelectedIndex = -1;
+            comboBox2.SelectedIndex = -1;
+            comboBox3.SelectedIndex = -1;
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+            textBox5.Clear();
+            textBox6.Clear();
+            textBox7.Clear();
+            textBox8.Clear();
+            textBox1.Focus();
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+
+        }
+        
+        
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            
+            comboBox1.Items.Add("BİLGİSAYAR BÖLÜMÜ");
+            comboBox1.Items.Add("İŞLETME BÖLÜMÜ");
+            comboBox1.Items.Add("MUHASEBE BÖLÜMÜ");
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            comboBox2.Items.Clear();
+            if (comboBox1.Text == "BİLGİSAYAR BÖLÜMÜ")
+            {
+                var ogretmen = File.ReadLines(@"ogretimelemani1.txt");
+                foreach (var isim in ogretmen)
+                {
+                    comboBox2.Items.Add(isim);
+                }
+            } //if endi
+
+            if (comboBox1.Text == "İŞLETME BÖLÜMÜ")
+            {
+                var ogretmen = File.ReadLines(@"ogretimelemani2.txt");
+                foreach (var isim in ogretmen)
+                {
+                    comboBox2.Items.Add(isim);
+                }
+            } //if endi
+
+            if (comboBox1.Text == "MUHASEBE BÖLÜMÜ")
+            {
+                var ogretmen = File.ReadLines(@"ogretimelemani3.txt");
+                foreach (var isim in ogretmen)
+                {
+                    comboBox2.Items.Add(isim);
+                }
+            } //if endi
+
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e) //comboya çift tıklayınca açılan yer  -  selected yeri.
+        {
+            comboBox3.Items.Clear();                                //comboyu temizlemezsek üst üste geliyorlar.
+            if (comboBox2.Text == "METE HAN")                       //combo 2 de METE HAN seçilirse ders1.txt dosyasındaki verileri combo3 e yaz demek.
+            {
+                var ogretmen = File.ReadLines(@"ders1.txt");        //böyle bir txt yi programın debug kısmına eklemen lazım.
+                foreach (var isim in ogretmen)
+                {
+                    comboBox3.Items.Add(isim);
+                }
+            } //if endi
+
+
+            if (comboBox2.Text == "CENGİZ HAN")
+            {
+                var ogretmen = File.ReadLines(@"ders2.txt");
+                foreach (var isim in ogretmen)
+                {
+                    comboBox3.Items.Add(isim);
+                }
+            } //if endi
+
+
+            if (comboBox2.Text == "TİMUR HAN")
+            {
+                var ogretmen = File.ReadLines(@"ders3.txt");
+                foreach (var isim in ogretmen)
+                {
+                    comboBox3.Items.Add(isim);
+                }
+            } //if endi
+
+
+            if (comboBox2.Text == "KÜRŞAT HAN")
+            {
+                var ogretmen = File.ReadLines(@"ders4.txt");
+                foreach (var isim in ogretmen)
+                {
+                    comboBox3.Items.Add(isim);
+                }
+            } //if endi
+            if (comboBox2.Text == "ALPARSLAN HAN")
+            {
+                var ogretmen = File.ReadLines(@"ders5.txt");
+                foreach (var isim in ogretmen)
+                {
+                    comboBox3.Items.Add(isim);
+                }
+            } //if endi
+            if (comboBox2.Text == "BEYAZIT HAN")
+            {
+                var ogretmen = File.ReadLines(@"ders6.txt");
+                foreach (var isim in ogretmen)
+                {
+                    comboBox3.Items.Add(isim);
+                }
+            } //if endi
+        }
+        double tcno, yaz1, yaz2, yaz3, söz1, söz2, yazort, sozort, ortalama;
+        string adı, soyadı, bölüm, ogretmen, ders, sınıf, harfnotu;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            if(checkBox1.Checked==true)
+            {
+                sınıf = "1.SINIF";
+            }
+            if (checkBox2.Checked == true)
+            {
+                sınıf = "2.SINIF";
+            }
+            tcno = Convert.ToDouble(textBox1.Text);
+            adı = textBox2.Text;
+            soyadı = textBox3.Text;
+            bölüm = comboBox1.Text;
+            ogretmen = comboBox2.Text;
+            ders = comboBox3.Text;
+            yaz1 = Convert.ToDouble(textBox4.Text);
+            yaz2 = Convert.ToDouble(textBox5.Text);
+            yaz3 = Convert.ToDouble(textBox8.Text);
+            söz1 = Convert.ToDouble(textBox6.Text);
+            söz2 = Convert.ToDouble(textBox7.Text);
+
+            yazort = (((yaz1 + yaz2 + yaz3)/3) / 100) * 70;//yazılı ortalaması alma finaller %70 etki ediyor.
+            sozort= (((söz1+söz2)/2 )/100)*30;             //%30 etki ediyor.
+            ortalama = yazort + sozort;
+
+            if((ortalama>0)&&(ortalama<44))
+            {
+            harfnotu="FF";
+            }
+            if ((ortalama > 45) && (ortalama < 64))
+            {
+                harfnotu = "CD";
+            }
+            if ((ortalama > 65) && (ortalama < 74))
+            {
+                harfnotu = "BC";
+            }
+            if ((ortalama > 75) && (ortalama < 84))
+            {
+                harfnotu = "BB";
+            }
+            if ((ortalama > 85) && (ortalama < 90))
+            {
+                harfnotu = "BA";
+            }
+            if ((ortalama > 91) && (ortalama < 100))
+            {
+                harfnotu = "AA";
+            }
+
+            listBox1.Items.Add((listBox1.Items.Count+1)+ "- "+tcno +"       "+adı +"       "+ soyadı + "       " +bölüm + "       "+ogretmen +"       "+ders + "       "+sınıf + "       "+ ortalama + "       "+harfnotu );
+             // sıralı şekilde listboxa yazma (countu 1 arttırma sebebimiz 0 dan başlıyor)
+
+
+
+            
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label13.Text = "TOPLAM KAYIT SAYISI = "+(listBox1.SelectedIndex + 1).ToString() + " / "+listBox1.Items.Count.ToString() ;  //listboxtaki eleman sayısını ve hangisini seçtiğini veriyor
+            //Yıldızların yanıp sönme olayı eğer textler boşsa labellerin enableti true oluyor.
+            if (textBox1.Text == "")
+            {
+                label14.Enabled = true;
+            }
+            if (textBox2.Text == "")
+            {
+                label15.Enabled = true;
+            }
+            if (textBox3.Text == "")
+            {
+                label16.Enabled = true;
+
+            }
+
+
+            if  (textBox1.Text != "")
+            {
+                label14.Enabled = false ;
+            }
+            if (textBox2.Text != "")
+            {
+                label15.Enabled = false;
+            }
+            if (textBox3.Text != "")
+            {
+                label16.Enabled = false;
+
+            } 
+
+
+        }
+//sorgulu çıkış.
+        Int16 cik;
+        private void button2_Click(object sender, EventArgs e)
+        {
+            cik = Convert.ToInt16(MessageBox.Show("Program Kapatılsın mı ? ", "ÇIKIŞ", MessageBoxButtons.YesNo, MessageBoxIcon.Information,
+            MessageBoxDefaultButton.Button2));
+
+            if (cik == 6) // eğer 6 yani evet seçilirse yap            
+            {
+                
+                Application.Exit();
+            }
+            else         //eğer 6 değilse yani 7 yse yani hayırsa
+            {
+                MessageBox.Show("ÇIKIŞ GERÇEKLEŞMEDİ !");  // ekrana mesaj verdik.
+            }
+        }
+
+        private void sİSTEMEKAYITToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            button1_Click(button1, new EventArgs());  //buton 1 e basma - bas
+
+        }
+
+        private void çIKIŞToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            button2_Click(button2, new EventArgs());  // buton 2 ye basma - bas
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            this.Text = "KAYIT FORMU     ---   " + DateTime.Now;    // şuanki zamanı formun textine yazar(timere yazdık yenilemelei olması için)
+        }
+
+
+
+
+
+
+
+########################################################################################################################################################
+12.Soru
+//anket programı
+//foreach ile textbox ve checkbox kontrol
+//mdi - MDİ
+//şifre olayı - referans numarası 
+//contextmenustrip olayı
+
+ ****   MDİ YAPMA   ****
+1- ilk olarak mdi olmasını istediğimiz formun IsMdiContainer özelliğini true yapıyoruz
+
+2- programın içindede çağırırken şu şekilde çağırıyoruz.
+
+ Form2 goster1 = new Form2();
+            goster1.MdiParent = this;
+            goster1.Show();
+
+
+ ****   sağ click olayı   ****
+
+1- contextmenustrip ekliyorsun ordan sağ tıklayınca çıkacak butonları ayarlıyorsun
+2- hangi eşyada sağ tıklayınca açılmasını istiyorsan onun properitiesinden contextmenustrip yerinden ilişkilendiriyorsun
+
+
+1.FORM
+
+
+
+ private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            Form2 goster1 = new Form2();
+            goster1.MdiParent = this;
+            goster1.Show();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+            if (Form2.acik == true) //form açıksa butonu pasif yapma olayı.
+            {
+                toolStripButton1.Enabled = false; 
+            } //if endi
+            if (Form2.acik == false)
+            {
+                toolStripButton1.Enabled = true;
+            }
+
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            this.Text = "ANA SAYFA  " + DateTime.Now;//formun captionuna anlık zamanı yazıyor.
+
+        }
+
+
+
+
+
+
+
+
+2.FORM:
+
+     //şifre olayı - referans numarası 
+        Random rastgele = new Random(); 
+        public void uret() // genel heryerde çalışcan // void=procedure 
+        {
+            
+            int sayi1 = rastgele.Next(100);
+            string harfler = "ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ1234567890";
+            string uret = "";
+            for (int i = 0; i < 6; i++)
+            {
+                uret += harfler[rastgele.Next(harfler.Length)];
+            }
+            textBox1.Text = uret;
+
+        }
+        private void temizle()
+        {
+            comboBox1.SelectedIndex = -1;
+            comboBox2.SelectedIndex = -1;
+            comboBox3.SelectedIndex = -1;
+
+             foreach (Control item in this.Controls) //itemi kontrol et > bu formun içindekileri
+    {
+
+        if (item is TextBox) // bu formun içindekilerden > textbox olanları kontrol et.
+
+        {
+            TextBox tbox = (TextBox)item; //textboxu tanıttık
+            tbox.Clear(); //temizlettik
+
+        }//ifin endi
+
+    }//foreachın endi
+
+
+            
+            foreach (Control ctl in this.Controls) //bu formu kontrol et
+                if (ctl is GroupBox) // formdaki groupbaxların içini kontrolo et
+                //Dolaşmaya başla
+                {
+                    foreach (Control karakterim in ctl.Controls) //group boxları kontrol et
+                    {
+                      
+                        if (karakterim is CheckBox) //groupboxtaki checkboxları kontrol et
+                        {
+
+                            CheckBox cbox = new CheckBox(); //tanıtıp
+                            cbox = (CheckBox)karakterim;
+
+                            cbox.Checked = false; //seçilme özelliklerini false ediyoruz.
+                        }
+                        
+                    }
+                }
+
+             uret();
+
+        }//temizle voidinin endi.
+
+
+
+
+
+
+
+        public static Boolean acik;
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            comboBox2.Items.Add("ANKARA");
+            comboBox2.Items.Add("İSTANBUL");
+            comboBox2.Items.Add("ANTALYA");
+            comboBox1.Items.Add("METE HAN");
+            comboBox1.Items.Add("CENGİZ HAN");
+            comboBox1.Items.Add("FATİH MEHMET");
+            comboBox1.Items.Add("KÜRŞAT");
+            comboBox1.Items.Add("ALPARSLAN");
+            uret();
+            acik = true;
+        }
+
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e) // form kapatıldıysa.
+        {
+            acik = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            uret();
+        }
+
+       
+        
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e) //comboya çift tıklayınca açılan yer.
+        {
+            comboBox3.Items.Clear(); // temizletiyoruz ki üst üste binmesin.
+            if (comboBox2.Text == "ANKARA")
+            {
+                comboBox3.Items.Add("KEÇİÖREN");
+                comboBox3.Items.Add("ÇANKAYA");
+                comboBox3.Items.Add("SİNCAN");
+                comboBox3.Items.Add("POLATLI");
+                comboBox3.Items.Add("OVACIK");
+            }
+            if (comboBox2.Text == "İSTANBUL")
+            {
+                comboBox3.Items.Add("PENDİK");
+                comboBox3.Items.Add("KARTAL");
+                comboBox3.Items.Add("BOSTANCI");
+                comboBox3.Items.Add("KADIKÖY");
+                comboBox3.Items.Add("İSTİKLAL");
+            }
+            if (comboBox2.Text == "ANTALYA")
+            {
+                comboBox3.Items.Add("MANAVGAT");
+                comboBox3.Items.Add("SERİK");
+                comboBox3.Items.Add("TİTREYENGÖL");
+                comboBox3.Items.Add("ÇOLAKLI");
+                comboBox3.Items.Add("KAŞ");
+            }
+        }
+        string anketno,anketor, musteriad, musterisoyad, il, ilçe, soru;
+        int  secim,sorgu;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if((checkBox1.Checked==true) || (checkBox2.Checked==true) || (checkBox3.Checked ==true) || (checkBox4.Checked==true))
+            {
+                soru = "1. SORU SEÇİLDİ";
+            
+            }
+            if ((checkBox5.Checked == true) || (checkBox6.Checked == true) || (checkBox7.Checked == true) || (checkBox8.Checked == true))
+            {
+                soru = "2. SORU SEÇİLDİ";
+
+            }
+            if ((checkBox1.Checked == true) || (checkBox5.Checked == true))
+            {
+                secim = 1;
+
+            }
+                if ((checkBox2.Checked == true) || (checkBox6.Checked == true))
+            {
+                secim = 2;
+            
+            }
+                if ((checkBox3.Checked == true) || (checkBox7.Checked == true))
+            {
+                secim = 3;
+            
+            }
+                if ((checkBox4.Checked == true) || (checkBox8.Checked == true))
+            {
+                secim = 4;
+            
+            }
+
+                anketno = textBox1.Text;
+                anketor = comboBox1.Text;
+                musteriad = textBox2.Text;
+                musterisoyad = textBox3.Text;
+                il = comboBox2.Text;
+                ilçe = comboBox3.Text;
+                sorgu = Convert.ToInt16(MessageBox.Show(musteriad +" "+musterisoyad+" "+"Kayıt Yapılsın mı ? ", "KAYIT", MessageBoxButtons.YesNo, MessageBoxIcon.Information,
+                MessageBoxDefaultButton.Button2));
+                if (sorgu == 6)
+                {
+                    //MessageBox.Show(anketno+anketor+musteriad+musterisoyad+il+ilçe+soru+secim );
+                    listBox1.Items.Add("ANKET NO = "+anketno +" "+"ANKETÖR = "+anketor+" "+"MÜŞTERİ ADI = "+musteriad+" "+"MÜŞTERİ SOYADI = "+musterisoyad +" "+"İLİ = "+il+" "+"İLÇESİ= "+ilçe+" "+"SORU SEÇİM = "+soru +" "+"CEVABI= "+secim);
+                    temizle();
+                }//EVETİN ENDİ
+                if (sorgu == 7)
+                {
+                    temizle();
+                }//hayırın sonu 
+
+        }
+
+       
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label7.Text = ("Sisteme Yüklü Kayıt Sayısı = " +(listBox1.SelectedIndex +1 ).ToString()+ " / " + listBox1.Items.Count);
+          
+        }
+
+        private void seçiliKaydıSilToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+            listBox1.Items.Remove(listBox1.SelectedItem);
+
+        }
+
+        
+    }
+}
+
+
+
+
+

@@ -1,0 +1,33 @@
+C:\Users\User\Desktop\AKİF AYÇİÇEK\Soru6\Soru6\obj\x86\Debug\Soru6.Form1.resources
+C:\Users\User\Desktop\AKİF AYÇİÇEK\Soru6\Soru6\obj\x86\Debug\Soru6.Properties.Resources.resources
+C:\Users\User\Desktop\AKİF AYÇİÇEK\Soru6\Soru6\obj\x86\Debug\Soru6.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\AKİF AYÇİÇEK\Soru6\Soru6\bin\Debug\Soru6.exe
+C:\Users\User\Desktop\AKİF AYÇİÇEK\Soru6\Soru6\bin\Debug\Soru6.pdb
+C:\Users\User\Desktop\AKİF AYÇİÇEK\Soru6\Soru6\obj\x86\Debug\Soru6.exe
+C:\Users\User\Desktop\AKİF AYÇİÇEK\Soru6\Soru6\obj\x86\Debug\Soru6.pdb
+C:\Users\User\Desktop\Nesne Gece\1\Soru6\Soru6\obj\x86\Debug\Soru6.exe
+C:\Users\User\Desktop\Nesne Gece\1\Soru6\Soru6\obj\x86\Debug\Soru6.pdb
+C:\Users\User\Desktop\Nesne Gece\1\Soru6\Soru6\bin\Debug\Soru6.exe
+C:\Users\User\Desktop\Nesne Gece\1\Soru6\Soru6\bin\Debug\Soru6.pdb
+C:\Users\User\Desktop\Nesne Gece\1\Soru6\Soru6\obj\x86\Debug\Soru6.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Nesne Gece\1\Soru6\Soru6\obj\x86\Debug\Soru6.Form1.resources
+C:\Users\User\Desktop\Nesne Gece\1\Soru6\Soru6\obj\x86\Debug\Soru6.Properties.Resources.resources
+C:\Users\User\Desktop\Nesne Gece\1\Soru6\Soru6\obj\x86\Debug\Soru6.csproj.GenerateResource.Cache
+F:\1\Soru6\Soru6\obj\x86\Debug\Soru6.exe
+F:\1\Soru6\Soru6\obj\x86\Debug\Soru6.pdb
+F:\1\Soru6\Soru6\bin\Debug\Soru6.exe
+F:\1\Soru6\Soru6\bin\Debug\Soru6.pdb
+F:\1\Soru6\Soru6\obj\x86\Debug\Soru6.csprojResolveAssemblyReference.cache
+F:\1\Soru6\Soru6\obj\x86\Debug\Soru6.Form1.resources
+F:\1\Soru6\Soru6\obj\x86\Debug\Soru6.Properties.Resources.resources
+F:\1\Soru6\Soru6\obj\x86\Debug\Soru6.csproj.GenerateResource.Cache
+C:\Users\SELAMKACMAZ\Desktop\SORU CEVAPLARI\Soru6\Soru6\obj\x86\Debug\Soru6.exe
+C:\Users\SELAMKACMAZ\Desktop\SORU CEVAPLARI\Soru6\Soru6\obj\x86\Debug\Soru6.pdb
+C:\Users\SELAMKACMAZ\Desktop\SORU CEVAPLARI\Soru6\Soru6\obj\x86\Debug\Soru6.csprojResolveAssemblyReference.cache
+C:\Users\SELAMKACMAZ\Desktop\SORU CEVAPLARI\Soru6\Soru6\obj\x86\Debug\Soru6.Form1.resources
+C:\Users\SELAMKACMAZ\Desktop\SORU CEVAPLARI\Soru6\Soru6\obj\x86\Debug\Soru6.Properties.Resources.resources
+C:\Users\SELAMKACMAZ\Desktop\SORU CEVAPLARI\Soru6\Soru6\obj\x86\Debug\Soru6.csproj.GenerateResource.Cache
+C:\Users\SELAMKACMAZ\Desktop\SORU CEVAPLARI\Soru6\Soru6\bin\Debug\Soru6.exe
+C:\Users\SELAMKACMAZ\Desktop\SORU CEVAPLARI\Soru6\Soru6\bin\Debug\Soru6.pdb
+C:\Users\MEHMET\Desktop\Soru6\Soru6\Soru6\obj\x86\Debug\Soru6.exe
+C:\Users\MEHMET\Desktop\Soru6\Soru6\Soru6\obj\x86\Debug\Soru6.pdb
